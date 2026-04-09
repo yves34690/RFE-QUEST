@@ -12,6 +12,7 @@ import Hearts from "@/components/ui/Hearts";
 import XPCounter from "@/components/ui/XPCounter";
 import NeoButton from "@/components/ui/NeoButton";
 import NeoCard from "@/components/ui/NeoCard";
+import Link from "next/link";
 
 interface LessonRunnerProps {
   questions: Question[];
@@ -215,13 +216,13 @@ export default function LessonRunner({
       {/* Nav header */}
       <div className="flex items-center justify-between">
         <div className="flex gap-2">
-          <a
+          <Link
             href="/"
             className="neo-border neo-shadow-sm neo-hover bg-neo-white px-2 py-1 cursor-pointer text-lg leading-none"
             title="Accueil"
           >
             🏠
-          </a>
+          </Link>
           <button
             onClick={() => setShowNav(!showNav)}
             className="neo-border neo-shadow-sm neo-hover bg-neo-white px-3 py-1 font-mono text-sm cursor-pointer"

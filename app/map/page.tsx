@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useGameStore } from "@/lib/store";
 import { sections } from "@/data/sections";
 import { isSectionUnlocked } from "@/lib/engine";
@@ -49,17 +50,17 @@ function MapContent() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <a
+          <Link
             href="/"
             className="neo-border neo-shadow-sm neo-hover bg-neo-white px-2 py-1 cursor-pointer text-lg leading-none"
             title="Accueil"
           >
             🏠
-          </a>
+          </Link>
           <div>
-            <a href="/" className="font-display font-extrabold text-3xl hover:text-neo-teal transition-colors">
+            <Link href="/" className="font-display font-extrabold text-3xl hover:text-neo-teal transition-colors">
               RFE QUEST
-            </a>
+            </Link>
             <p className="font-mono text-sm text-gray-500">
               Parcours {parcours === "cabinet" ? "Expert-Comptable" : "Dirigeant"}
               {currentStreak > 0 && ` · 🔥 ${currentStreak}j`}
@@ -68,9 +69,9 @@ function MapContent() {
         </div>
         <div className="flex flex-col items-end gap-2">
           <XPCounter xp={xp} />
-          <a href="/profil" className="cursor-pointer">
+          <Link href="/profil" className="cursor-pointer">
             <BeltBadge belt={currentBelt} size="sm" />
-          </a>
+          </Link>
         </div>
       </div>
 

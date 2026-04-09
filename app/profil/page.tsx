@@ -8,6 +8,7 @@ import NeoCard from "@/components/ui/NeoCard";
 import NeoButton from "@/components/ui/NeoButton";
 import XPCounter from "@/components/ui/XPCounter";
 import HydrationGuard from "@/components/HydrationGuard";
+import Link from "next/link";
 
 function ProfilContent() {
   const router = useRouter();
@@ -25,13 +26,13 @@ function ProfilContent() {
     <div className="flex flex-col flex-1 p-6 max-w-2xl mx-auto w-full gap-6">
       {/* Header */}
       <div className="flex items-center gap-3">
-        <a
+        <Link
           href="/map"
           className="neo-border neo-shadow-sm neo-hover bg-neo-white px-2 py-1 cursor-pointer text-lg leading-none"
           title="Carte"
         >
           🏠
-        </a>
+        </Link>
         <h1 className="font-display font-extrabold text-3xl">Mon Profil</h1>
       </div>
 
