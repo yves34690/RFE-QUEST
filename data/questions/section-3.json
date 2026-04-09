@@ -1,0 +1,423 @@
+[
+  {
+    "id": "s3-u1-q01",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Le PPF (Portail Public de Facturation) est une plateforme de facturation sur laquelle on peut creer et envoyer ses factures.",
+    "answer": "faux",
+    "explanation": "Depuis octobre 2024, le PPF n'est plus une plateforme de facturation. Son role est desormais limite a deux fonctions : annuaire central (qui route les factures) et concentrateur fiscal (qui collecte les donnees pour l'administration)."
+  },
+  {
+    "id": "s3-u1-q02",
+    "type": "qcm",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Quels sont les deux roles du PPF depuis la refonte d'octobre 2024 ?",
+    "options": ["Facturation et paiement", "Annuaire central et concentrateur fiscal", "Archivage et certification", "Emission et reception de factures"],
+    "answer": 1,
+    "explanation": "Le PPF assure desormais uniquement le role d'annuaire central (pour orienter les factures vers la bonne PA du destinataire) et de concentrateur fiscal (pour transmettre les donnees a la DGFiP)."
+  },
+  {
+    "id": "s3-u1-q03",
+    "type": "qcm",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Pourquoi l'Etat a-t-il abandonne le role de plateforme de facturation du PPF ?",
+    "options": ["Pour reduire les couts de developpement et s'appuyer sur l'ecosysteme prive", "Parce que c'etait illegal au niveau europeen", "Par manque de budget temporaire", "Pour favoriser un editeur en particulier"],
+    "answer": 0,
+    "explanation": "L'Etat a decide de recentrer le PPF sur ses missions regaliennes (annuaire et concentration des donnees fiscales) et de laisser les Plateformes Agreees privees gerer l'emission et la reception des factures."
+  },
+  {
+    "id": "s3-u1-q04",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Le PPF transmet les donnees de facturation et d'e-reporting a la DGFiP.",
+    "answer": "vrai",
+    "explanation": "C'est le role de concentrateur fiscal du PPF : il collecte les donnees transmises par les Plateformes Agreees et les transmet a la Direction Generale des Finances Publiques (DGFiP)."
+  },
+  {
+    "id": "s3-u1-q05",
+    "type": "qcm",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Quel est le role de l'annuaire du PPF ?",
+    "options": ["Lister les entreprises en infraction", "Permettre de retrouver la PA du destinataire d'une facture", "Stocker toutes les factures electroniques", "Publier les tarifs des PA"],
+    "answer": 1,
+    "explanation": "L'annuaire central du PPF permet de savoir quelle Plateforme Agreee utilise chaque entreprise pour recevoir ses factures. C'est le mecanisme de routage de la reforme."
+  },
+  {
+    "id": "s3-u1-q06",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Les entreprises doivent obligatoirement passer par le PPF pour emettre leurs factures.",
+    "answer": "faux",
+    "explanation": "Le PPF n'est plus une plateforme d'emission. Les entreprises doivent passer par une Plateforme Agreee (PA) privee pour emettre et recevoir leurs factures electroniques."
+  },
+  {
+    "id": "s3-u1-q07",
+    "type": "fill-blank",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Le PPF joue le role d'annuaire central et de concentrateur ______.",
+    "answer": "fiscal",
+    "explanation": "Le concentrateur fiscal collecte les donnees issues de l'e-invoicing et de l'e-reporting pour les transmettre a l'administration fiscale (DGFiP), permettant un pre-remplissage des declarations de TVA."
+  },
+  {
+    "id": "s3-u1-q08",
+    "type": "qcm",
+    "section": 3,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Avant la refonte d'octobre 2024, quel etait le role prevu du PPF ?",
+    "options": ["Uniquement annuaire", "Plateforme gratuite d'emission/reception en plus de l'annuaire et du concentrateur", "Remplacement total des logiciels de facturation", "Simple portail d'information"],
+    "answer": 1,
+    "explanation": "Le PPF devait initialement etre une plateforme publique gratuite permettant aux entreprises d'emettre et recevoir des factures, en plus de ses roles d'annuaire et de concentrateur. Ce volet a ete abandonne."
+  },
+  {
+    "id": "s3-u2-q01",
+    "type": "qcm",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Quel est le role principal d'une Plateforme Agreee (PA) ?",
+    "options": ["Remplacer l'expert-comptable", "Emettre et recevoir les factures electroniques pour le compte des entreprises", "Controler la conformite fiscale des entreprises", "Archiver les factures pendant 10 ans"],
+    "answer": 1,
+    "explanation": "Les PA sont les intermediaires techniques qui permettent aux entreprises d'emettre et de recevoir leurs factures electroniques conformes, et de transmettre les donnees au PPF."
+  },
+  {
+    "id": "s3-u2-q02",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Les Plateformes Agreees etaient anciennement appelees PDP (Plateformes de Dematerialisation Partenaires).",
+    "answer": "vrai",
+    "explanation": "Le terme a evolue : les PDP sont devenues les Plateformes Agreees (PA) suite a la refonte du dispositif. C'est la meme fonction mais avec un nouveau cadre reglementaire."
+  },
+  {
+    "id": "s3-u2-q03",
+    "type": "qcm",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Combien de Plateformes Agreees sont actuellement immatriculees ?",
+    "options": ["Une vingtaine", "Environ 70", "Environ 141", "Plus de 500"],
+    "answer": 2,
+    "explanation": "Environ 141 PA sont immatriculees a ce jour. Ce nombre important temoigne de la dynamique du marche et offre aux entreprises un large choix de prestataires."
+  },
+  {
+    "id": "s3-u2-q04",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "La certification ISO 27001 est requise pour obtenir l'agrement de Plateforme Agreee.",
+    "answer": "vrai",
+    "explanation": "La norme ISO 27001 (management de la securite de l'information) fait partie des exigences pour obtenir l'immatriculation en tant que PA. C'est une garantie de securite pour les donnees fiscales transitant par la plateforme."
+  },
+  {
+    "id": "s3-u2-q05",
+    "type": "qcm",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Quelle autorite delivre l'immatriculation des Plateformes Agreees ?",
+    "options": ["La CNIL", "La DGFiP (administration fiscale)", "L'ANSSI", "La Banque de France"],
+    "answer": 1,
+    "explanation": "C'est la DGFiP (Direction Generale des Finances Publiques) qui delivre l'immatriculation aux PA apres verification du respect des exigences techniques, de securite et fonctionnelles."
+  },
+  {
+    "id": "s3-u2-q06",
+    "type": "fill-blank",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Les anciennes PDP sont desormais appelees Plateformes ________.",
+    "answer": "Agreees",
+    "explanation": "Le changement de terminologie de PDP (Plateformes de Dematerialisation Partenaires) a PA (Plateformes Agreees) reflete le nouveau cadre reglementaire issu de la refonte du dispositif."
+  },
+  {
+    "id": "s3-u2-q07",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Une PA doit transmettre les donnees de facturation au PPF (concentrateur fiscal).",
+    "answer": "vrai",
+    "explanation": "Les PA ont l'obligation de transmettre les donnees d'e-invoicing et d'e-reporting au PPF dans son role de concentrateur fiscal, qui les relaie ensuite a la DGFiP."
+  },
+  {
+    "id": "s3-u2-q08",
+    "type": "qcm",
+    "section": 3,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "Une entreprise peut-elle utiliser plusieurs PA en meme temps ?",
+    "options": ["Non, une seule PA par SIREN", "Oui, mais une seule pour la reception (inscrite a l'annuaire)", "Oui, sans aucune limitation", "Non, c'est interdit par la loi"],
+    "answer": 1,
+    "explanation": "Une entreprise peut utiliser plusieurs PA pour l'emission, mais une seule PA est inscrite dans l'annuaire du PPF pour la reception. C'est cette PA qui recevra toutes les factures entrantes."
+  },
+  {
+    "id": "s3-u3-q01",
+    "type": "qcm",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Quelle est la principale difference entre une PA et un OD (Operateur de Dematerialisation) ?",
+    "options": ["L'OD est gratuit, la PA est payante", "La PA est immatriculee et peut emettre/recevoir directement, l'OD doit passer par une PA", "L'OD est reserve aux grandes entreprises", "Il n'y a aucune difference"],
+    "answer": 1,
+    "explanation": "La PA est immatriculee par la DGFiP et peut emettre/recevoir des factures directement dans le reseau. L'OD n'est pas immatricule et doit obligatoirement passer par une PA pour acceder au reseau."
+  },
+  {
+    "id": "s3-u3-q02",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Un Operateur de Dematerialisation doit etre immatricule par la DGFiP.",
+    "answer": "faux",
+    "explanation": "Contrairement aux PA, les OD ne sont pas immatricules par la DGFiP. Ils n'ont pas de reconnaissance officielle et ne peuvent pas acceder directement au reseau de facturation electronique."
+  },
+  {
+    "id": "s3-u3-q03",
+    "type": "qcm",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel est le role typique d'un OD dans la chaine de facturation ?",
+    "options": ["Remplacer la PA", "Aider l'entreprise a preparer ses factures et les transmettre a une PA", "Certifier les factures aupres de l'administration", "Gerer l'annuaire central"],
+    "answer": 1,
+    "explanation": "L'OD aide l'entreprise dans la preparation et la conversion des factures au bon format, puis les transmet a une PA qui se charge de l'emission effective dans le reseau."
+  },
+  {
+    "id": "s3-u3-q04",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Un OD peut emettre des factures directement dans le reseau sans passer par une PA.",
+    "answer": "faux",
+    "explanation": "Un OD ne peut pas emettre directement. Il doit imperativement passer par une Plateforme Agreee pour acceder au reseau d'e-invoicing. L'OD est un prestataire technique en amont de la PA."
+  },
+  {
+    "id": "s3-u3-q05",
+    "type": "qcm",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Pourquoi une entreprise choisirait-elle de travailler avec un OD plutot que directement avec une PA ?",
+    "options": ["Pour payer moins cher", "Parce que l'OD offre des services complementaires (conversion de formats, integration ERP, etc.)", "Parce que c'est obligatoire pour les TPE", "Pour eviter l'inscription a l'annuaire"],
+    "answer": 1,
+    "explanation": "Un OD peut offrir des services a valeur ajoutee : conversion de formats, integration avec l'ERP de l'entreprise, gestion documentaire, etc. Il simplifie la preparation des factures avant transmission a la PA."
+  },
+  {
+    "id": "s3-u3-q06",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Un logiciel de facturation comme Pennylane peut jouer le role d'OD ou de PA.",
+    "answer": "vrai",
+    "explanation": "Un editeur de logiciel de facturation peut choisir de devenir PA (s'il obtient l'immatriculation) ou de fonctionner comme OD en s'appuyant sur une PA partenaire pour l'acces au reseau."
+  },
+  {
+    "id": "s3-u3-q07",
+    "type": "qcm",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Dans le schema emetteur → OD → PA → PPF → PA → destinataire, combien d'acteurs intermediaires interviennent ?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "explanation": "Trois intermediaires : l'OD (preparation), la PA de l'emetteur (emission dans le reseau), et la PA du destinataire (reception). Le PPF intervient comme annuaire pour le routage et comme concentrateur fiscal."
+  },
+  {
+    "id": "s3-u3-q08",
+    "type": "fill-blank",
+    "section": 3,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "L'OD doit passer par une Plateforme ________ pour acceder au reseau de facturation.",
+    "answer": "Agreee",
+    "explanation": "Seules les Plateformes Agreees (PA) ont l'autorisation d'emettre et recevoir dans le reseau officiel. L'OD est un prestataire technique qui doit s'appuyer sur une PA immatriculee."
+  },
+  {
+    "id": "s3-u4-q01",
+    "type": "qcm",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Quel identifiant est utilise dans l'annuaire central du PPF pour identifier les entreprises ?",
+    "options": ["Le numero de TVA intracommunautaire", "Le SIREN ou SIRET", "Le code NAF", "Le numero RCS"],
+    "answer": 1,
+    "explanation": "L'annuaire central utilise le SIREN (identifiant de l'entreprise) et le SIRET (identifiant de l'etablissement) pour identifier chaque entite et lui associer sa Plateforme Agreee de reception."
+  },
+  {
+    "id": "s3-u4-q02",
+    "type": "fill-blank",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Le code de ________ permet de diriger les factures vers la bonne PA du destinataire.",
+    "answer": "routage",
+    "explanation": "Le code de routage est l'information cle de l'annuaire : il indique quelle PA est designee pour recevoir les factures d'une entreprise donnee. Sans ce code, la facture ne peut pas etre acheminee."
+  },
+  {
+    "id": "s3-u4-q03",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Chaque entreprise doit s'inscrire manuellement dans l'annuaire du PPF.",
+    "answer": "faux",
+    "explanation": "Toutes les entreprises assujetties a la TVA sont pre-inscrites dans l'annuaire a partir des donnees du repertoire SIRENE. L'entreprise doit ensuite renseigner sa PA de reception (code de routage)."
+  },
+  {
+    "id": "s3-u4-q04",
+    "type": "qcm",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Combien d'entites sont deja pre-inscrites dans l'annuaire central ?",
+    "options": ["Environ 100 000", "Environ 300 000", "Plus de 600 000", "Plus de 5 millions"],
+    "answer": 2,
+    "explanation": "Plus de 600 000 entites sont deja referencees dans l'annuaire central. Ce chiffre augmentera a mesure que les entreprises renseigneront leur PA de reception."
+  },
+  {
+    "id": "s3-u4-q05",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Une entreprise peut changer de PA de reception a tout moment en mettant a jour son code de routage dans l'annuaire.",
+    "answer": "vrai",
+    "explanation": "L'entreprise peut modifier son code de routage dans l'annuaire pour changer de PA de reception. Cela permet une concurrence saine entre les PA et une liberte de choix pour les entreprises."
+  },
+  {
+    "id": "s3-u4-q06",
+    "type": "qcm",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Que se passe-t-il si une entreprise n'a pas renseigne son code de routage dans l'annuaire ?",
+    "options": ["Ses factures sont refusees par le reseau", "Ses factures sont mises en attente au niveau du PPF", "Elle ne pourra pas recevoir de factures electroniques correctement", "Rien, c'est facultatif"],
+    "answer": 2,
+    "explanation": "Sans code de routage, l'emetteur ne sait pas vers quelle PA envoyer la facture. L'entreprise risque de ne pas recevoir ses factures electroniques, ce qui peut poser des problemes operationnels."
+  },
+  {
+    "id": "s3-u4-q07",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "L'annuaire central est alimente automatiquement a partir du repertoire SIRENE de l'INSEE.",
+    "answer": "vrai",
+    "explanation": "Les donnees de base (SIREN, SIRET, raison sociale) proviennent du repertoire SIRENE. L'entreprise complete ensuite ces informations avec son choix de PA (code de routage)."
+  },
+  {
+    "id": "s3-u4-q08",
+    "type": "qcm",
+    "section": 3,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "Peut-on renseigner des codes de routage differents pour chaque etablissement (SIRET) d'une meme entreprise ?",
+    "options": ["Non, un seul code par SIREN", "Oui, chaque SIRET peut avoir sa propre PA", "Seulement pour les entreprises de plus de 250 salaries", "Seulement avec une derogation de la DGFiP"],
+    "answer": 1,
+    "explanation": "L'annuaire permet une granularite au niveau SIRET. Une entreprise multi-etablissements peut donc diriger les factures de chaque site vers une PA differente, adaptee a son organisation."
+  },
+  {
+    "id": "s3-u5-q01",
+    "type": "qcm",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 1,
+    "question": "Quel est le premier critere a verifier lors du choix d'une PA ?",
+    "options": ["Le prix", "L'immatriculation officielle par la DGFiP", "Le nombre de clients", "La taille de l'entreprise editrice"],
+    "answer": 1,
+    "explanation": "Le critere numero 1 est de verifier que la PA est bien immatriculee par la DGFiP. Sans immatriculation, le prestataire ne peut pas legalement emettre ou recevoir des factures dans le reseau officiel."
+  },
+  {
+    "id": "s3-u5-q02",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 1,
+    "question": "Le prix est le critere le plus important pour choisir sa Plateforme Agreee.",
+    "answer": "faux",
+    "explanation": "Le prix est un critere parmi d'autres, mais l'immatriculation, les fonctionnalites, la securite et la simplicite d'utilisation doivent etre evalues en priorite. Un choix uniquement base sur le prix peut mener a des mauvaises surprises."
+  },
+  {
+    "id": "s3-u5-q03",
+    "type": "qcm",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 2,
+    "question": "Quels sont les 5 criteres cles pour choisir sa PA ?",
+    "options": ["Prix, notoriete, taille, anciennete, localisation", "Immatriculation, fonctionnalites, securite, simplicite, prix", "Format, vitesse, stockage, support, API", "Certification, compatibilite, SLA, export, mobile"],
+    "answer": 1,
+    "explanation": "Les 5 criteres a evaluer sont : 1) Immatriculation DGFiP, 2) Fonctionnalites adaptees a vos besoins, 3) Securite des donnees, 4) Simplicite d'utilisation, 5) Prix. Dans cet ordre de priorite."
+  },
+  {
+    "id": "s3-u5-q04",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 2,
+    "question": "La securite des donnees est un critere important car les factures contiennent des informations fiscales sensibles.",
+    "answer": "vrai",
+    "explanation": "Les factures contiennent des donnees sensibles (montants, TVA, coordonnees). La PA doit garantir la securite de ces donnees, d'ou l'exigence de certification ISO 27001 pour l'immatriculation."
+  },
+  {
+    "id": "s3-u5-q05",
+    "type": "qcm",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 2,
+    "question": "Pourquoi la simplicite d'utilisation est-elle un critere important pour une PA ?",
+    "options": ["Pour impressionner les clients", "Pour reduire le temps de formation et faciliter l'adoption par les equipes", "Pour eviter de payer un consultant", "Pour se passer d'expert-comptable"],
+    "answer": 1,
+    "explanation": "Une interface simple reduit le temps de formation, diminue les erreurs et facilite l'adoption par les collaborateurs. C'est particulierement important pour les TPE/PME qui n'ont pas d'equipe IT dediee."
+  },
+  {
+    "id": "s3-u5-q06",
+    "type": "qcm",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 2,
+    "question": "En termes de fonctionnalites, que faut-il verifier en priorite chez une PA ?",
+    "options": ["Qu'elle propose un chatbot IA", "Qu'elle gere les formats requis, l'e-reporting, et s'integre a vos outils existants", "Qu'elle offre un stockage illimite", "Qu'elle propose une application mobile"],
+    "answer": 1,
+    "explanation": "L'essentiel est que la PA gere les 3 formats (Factur-X, UBL, CII), l'e-reporting en plus de l'e-invoicing, et qu'elle s'integre facilement avec votre logiciel de comptabilite ou ERP existant."
+  },
+  {
+    "id": "s3-u5-q07",
+    "type": "vrai-faux",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 3,
+    "question": "Il est possible de verifier la liste des PA immatriculees sur le site de la DGFiP.",
+    "answer": "vrai",
+    "explanation": "La DGFiP publie et met a jour la liste officielle des Plateformes Agreees immatriculees. C'est le moyen le plus fiable de verifier qu'un prestataire est bien agree."
+  },
+  {
+    "id": "s3-u5-q08",
+    "type": "qcm",
+    "section": 3,
+    "unite": 5,
+    "difficulty": 3,
+    "question": "Un prestataire se presente comme PA mais n'apparait pas sur la liste officielle. Que faire ?",
+    "options": ["Lui faire confiance s'il a de bons avis en ligne", "Ne pas le choisir et privilegier une PA officiellement immatriculee", "Attendre qu'il obtienne son immatriculation", "Le signaler a la CNIL"],
+    "answer": 1,
+    "explanation": "Si un prestataire ne figure pas sur la liste officielle de la DGFiP, il n'est pas immatricule et ne peut pas legalement operer comme PA. Il faut imperativement choisir une PA immatriculee pour etre en conformite."
+  }
+]

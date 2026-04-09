@@ -1,0 +1,255 @@
+[
+  {
+    "id": "s5-u1-q01",
+    "type": "qcm",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Le e-reporting concerne quelles transactions ?",
+    "options": ["Uniquement les ventes B2B domestiques", "Les ventes B2C et les operations internationales", "Toutes les ventes sans exception", "Uniquement les ventes a l'export"],
+    "answer": 1,
+    "explanation": "Le e-reporting couvre les transactions qui ne passent pas par la facturation electronique : les ventes B2C (aux particuliers) et les operations internationales (import/export, intracommunautaire)."
+  },
+  {
+    "id": "s5-u1-q02",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Le e-reporting consiste a transmettre les factures elles-memes a l'administration.",
+    "answer": "faux",
+    "explanation": "Le e-reporting ne transmet pas les factures mais uniquement les donnees de transaction (montants, TVA, categorie) et les donnees de paiement. C'est une transmission de donnees, pas de documents."
+  },
+  {
+    "id": "s5-u1-q03",
+    "type": "qcm",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Quels types de donnees sont transmises dans le cadre du e-reporting ?",
+    "options": ["Uniquement les montants HT", "Les donnees de transaction et les donnees de paiement", "Les factures completes en PDF", "Uniquement le numero de TVA et le montant TTC"],
+    "answer": 1,
+    "explanation": "Le e-reporting transmet deux types de donnees : les donnees de transaction (identification, montants, TVA) et les donnees de paiement (date et mode de reglement)."
+  },
+  {
+    "id": "s5-u1-q04",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Une vente a un particulier francais est soumise au e-reporting.",
+    "answer": "vrai",
+    "explanation": "Les ventes B2C (a des particuliers) ne font pas l'objet de facturation electronique mais doivent etre declarees via le e-reporting. L'administration peut ainsi reconstituer l'ensemble du chiffre d'affaires."
+  },
+  {
+    "id": "s5-u1-q05",
+    "type": "qcm",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Pourquoi le e-reporting est-il necessaire en complement de la facturation electronique ?",
+    "options": ["Pour remplacer les declarations de TVA", "Pour couvrir les transactions non couvertes par la facturation electronique", "Pour calculer l'impot sur les societes", "Pour verifier les comptes annuels"],
+    "answer": 1,
+    "explanation": "La facturation electronique ne couvre que le B2B domestique. Le e-reporting permet a l'administration de disposer des donnees sur les transactions B2C et internationales pour reconstituer la TVA complete."
+  },
+  {
+    "id": "s5-u1-q06",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Une entreprise francaise qui vend uniquement a des professionnels francais n'a pas d'obligation de e-reporting.",
+    "answer": "vrai",
+    "explanation": "Si toutes les ventes sont du B2B domestique, elles sont couvertes par la facturation electronique. Le e-reporting ne s'applique qu'aux transactions hors champ de la facturation electronique (B2C, international)."
+  },
+  {
+    "id": "s5-u1-q07",
+    "type": "qcm",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Par quel intermediaire le e-reporting est-il transmis a l'administration ?",
+    "options": ["Directement sur impots.gouv.fr", "Via une Plateforme Agreee (PA)", "Par courrier recommande", "Via le portail Chorus Pro"],
+    "answer": 1,
+    "explanation": "Comme pour la facturation electronique, le e-reporting transite par une Plateforme Agreee qui transmet les donnees a l'administration via le concentrateur national."
+  },
+  {
+    "id": "s5-u1-q08",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Les prestations de services rendues a un client etabli hors de l'UE sont soumises au e-reporting.",
+    "answer": "vrai",
+    "explanation": "Toutes les operations internationales (y compris hors UE) sont soumises au e-reporting. L'administration a besoin de ces donnees pour reconstituer l'activite totale de l'entreprise et verifier la TVA."
+  },
+  {
+    "id": "s5-u2-q01",
+    "type": "qcm",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Quelle est la frequence de transmission du e-reporting pour une entreprise au regime mensuel de TVA ?",
+    "options": ["Quotidienne", "Mensuelle", "Trimestrielle", "Annuelle"],
+    "answer": 1,
+    "explanation": "Les entreprises au regime reel normal (declarations mensuelles de TVA) transmettent leur e-reporting mensuellement, en coherence avec leur rythme de declaration."
+  },
+  {
+    "id": "s5-u2-q02",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Toutes les entreprises transmettent leur e-reporting a la meme frequence.",
+    "answer": "faux",
+    "explanation": "La frequence depend du regime de TVA : mensuelle pour le reel normal, bimestrielle pour le reel simplifie, et trimestrielle pour la franchise en base. Chaque regime a sa propre periodicite."
+  },
+  {
+    "id": "s5-u2-q03",
+    "type": "qcm",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Quelle est la frequence de e-reporting pour une entreprise au regime reel simplifie ?",
+    "options": ["Mensuelle", "Bimestrielle", "Trimestrielle", "Semestrielle"],
+    "answer": 1,
+    "explanation": "Les entreprises au regime reel simplifie de TVA transmettent leur e-reporting tous les deux mois (bimestrielle). C'est un rythme intermediaire entre le mensuel et le trimestriel."
+  },
+  {
+    "id": "s5-u2-q04",
+    "type": "qcm",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Quelle est la frequence de e-reporting pour un micro-entrepreneur en franchise de TVA ?",
+    "options": ["Mensuelle", "Bimestrielle", "Trimestrielle", "Il n'a pas d'obligation de e-reporting"],
+    "answer": 2,
+    "explanation": "Les entreprises en franchise en base de TVA transmettent leur e-reporting trimestriellement. Meme sans TVA a declarer, elles doivent communiquer leurs donnees de transactions B2C et internationales."
+  },
+  {
+    "id": "s5-u2-q05",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Une entreprise en franchise en base de TVA est dispensee du e-reporting.",
+    "answer": "faux",
+    "explanation": "Meme en franchise en base, l'entreprise est soumise au e-reporting pour ses transactions B2C et internationales. La franchise dispense de TVA, pas de l'obligation de transmission des donnees."
+  },
+  {
+    "id": "s5-u2-q06",
+    "type": "qcm",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Les donnees de paiement doivent etre transmises dans quel delai apres l'encaissement ?",
+    "options": ["Immediatement", "Sous 48 heures", "Selon la periodicite du regime TVA de l'entreprise", "Sous 30 jours"],
+    "answer": 2,
+    "explanation": "Les donnees de paiement suivent la meme periodicite que les donnees de transaction : mensuelle, bimestrielle ou trimestrielle selon le regime de TVA de l'entreprise."
+  },
+  {
+    "id": "s5-u2-q07",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "Le e-reporting des donnees de paiement est utile pour le pre-remplissage de la TVA sur les encaissements.",
+    "answer": "vrai",
+    "explanation": "Pour les prestataires de services non optes aux debits, la TVA est exigible a l'encaissement. Les donnees de paiement du e-reporting permettent a l'administration de pre-remplir correctement la TVA collectee."
+  },
+  {
+    "id": "s5-u2-q08",
+    "type": "qcm",
+    "section": 5,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "En cas de retard de transmission du e-reporting, quelle sanction s'applique ?",
+    "options": ["Aucune sanction", "500 euros par transmission manquante, plafonne a 15 000 euros", "Amende forfaitaire de 1 000 euros", "Majoration de 10% de la TVA due"],
+    "answer": 1,
+    "explanation": "Le non-respect des obligations de e-reporting est sanctionne par une amende de 500 euros par transmission manquante (LF 2026, art.123), avec un plafond de 15 000 euros par annee civile."
+  },
+  {
+    "id": "s5-u3-q01",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "La loi de finances 2026 a supprime l'obligation de decompte quotidien des operations B2C.",
+    "answer": "vrai",
+    "explanation": "Initialement, un decompte ticket par ticket etait envisage pour le B2C. La LF 2026 a simplifie cette obligation : les entreprises transmettent desormais des donnees agregees selon leur periodicite de TVA."
+  },
+  {
+    "id": "s5-u3-q02",
+    "type": "qcm",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Quelle simplification majeure la LF 2026 a-t-elle apportee pour le e-reporting B2C ?",
+    "options": ["Suppression totale du e-reporting B2C", "Passage d'un decompte quotidien a des donnees agregees periodiques", "Limitation aux ventes de plus de 100 euros", "Report de l'obligation a 2028"],
+    "answer": 1,
+    "explanation": "La LF 2026 a remplace le decompte quotidien ticket par ticket par une transmission de donnees agregees selon la periodicite du regime TVA. C'est une simplification considerable pour les commerces."
+  },
+  {
+    "id": "s5-u3-q03",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Les declarations neantes (sans operation) ne sont plus obligatoires dans le cadre du e-reporting.",
+    "answer": "vrai",
+    "explanation": "La LF 2026 a supprime l'obligation de declarations neantes. Si une entreprise n'a realise aucune transaction soumise au e-reporting sur une periode, elle n'a rien a transmettre."
+  },
+  {
+    "id": "s5-u3-q04",
+    "type": "qcm",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quelle simplification a ete apportee pour les entreprises relevant du regime de la marge ?",
+    "options": ["Exemption totale de e-reporting", "Transmission de la seule marge realisee et non du detail des achats/ventes", "Report de l'obligation a 2027", "Decompte annuel uniquement"],
+    "answer": 1,
+    "explanation": "Les entreprises au regime de la marge (biens d'occasion, agences de voyage...) beneficient d'un regime simplifie : elles transmettent uniquement la marge et non le detail de chaque operation."
+  },
+  {
+    "id": "s5-u3-q05",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Avant la LF 2026, un commerce de detail devait transmettre chaque ticket de caisse individuellement.",
+    "answer": "vrai",
+    "explanation": "Le schema initial prevoyait un e-reporting transaction par transaction, y compris pour les tickets de caisse. La LF 2026 a corrige cette contrainte jugee disproportionnee en permettant une transmission agregee."
+  },
+  {
+    "id": "s5-u3-q06",
+    "type": "qcm",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel texte legislatif a introduit les simplifications majeures du e-reporting ?",
+    "options": ["La loi PACTE", "L'ordonnance de septembre 2021", "La loi de finances 2026", "Le decret du 1er juillet 2024"],
+    "answer": 2,
+    "explanation": "C'est la loi de finances pour 2026 (LF 2026) qui a introduit les principales simplifications : fin du decompte quotidien B2C, suppression des declarations neantes et regime de marge simplifie."
+  },
+  {
+    "id": "s5-u3-q07",
+    "type": "vrai-faux",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Les simplifications de la LF 2026 repoussent la date d'entree en vigueur du e-reporting.",
+    "answer": "faux",
+    "explanation": "Les simplifications allegent les modalites du e-reporting mais ne modifient pas le calendrier. Les obligations de e-reporting suivent le meme calendrier que la facturation electronique."
+  },
+  {
+    "id": "s5-u3-q08",
+    "type": "qcm",
+    "section": 5,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Pour un restaurant, quelle est la consequence pratique principale des simplifications LF 2026 ?",
+    "options": ["Il n'a plus aucune obligation de e-reporting", "Il transmet un recapitulatif periodique au lieu de chaque ticket de caisse", "Il doit transmettre uniquement les additions de plus de 50 euros", "Il est dispense jusqu'en 2028"],
+    "answer": 1,
+    "explanation": "Un restaurant, typiquement en B2C, n'a plus a transmettre chaque ticket individuellement. Il envoie desormais un recapitulatif agrege (mensuel, bimestriel ou trimestriel selon son regime TVA)."
+  }
+]

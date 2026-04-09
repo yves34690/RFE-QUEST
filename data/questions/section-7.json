@@ -1,0 +1,388 @@
+[
+  {
+    "id": "s7-u1-q01",
+    "type": "qcm",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Qu'est-ce que l'auto-facturation ?",
+    "options": [
+      "Le fait de facturer automatiquement via un logiciel",
+      "Le fait que l'acheteur emette la facture a la place du fournisseur",
+      "La facturation entre filiales d'un meme groupe",
+      "La generation automatique de factures recurrentes"
+    ],
+    "answer": 1,
+    "explanation": "L'auto-facturation (ou self-billing) est un mecanisme ou c'est l'acheteur qui emet la facture au nom et pour le compte du fournisseur. C'est un cas d'usage particulier prevu par la reforme."
+  },
+  {
+    "id": "s7-u1-q02",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Les factures intragroupe (entre filiales d'une meme entreprise) sont exemptees de la reforme.",
+    "answer": "faux",
+    "explanation": "Les factures intragroupe entre entites assujetties a la TVA et etablies en France sont soumises aux memes obligations d'e-invoicing que les factures inter-entreprises classiques."
+  },
+  {
+    "id": "s7-u1-q03",
+    "type": "qcm",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Dans le cas de l'affacturage, qui est responsable de l'emission de la facture electronique ?",
+    "options": [
+      "Le factor (societe d'affacturage)",
+      "L'entreprise cedante (fournisseur)",
+      "L'acheteur (client)",
+      "La Plateforme Agreee"
+    ],
+    "answer": 1,
+    "explanation": "C'est l'entreprise cedante (le fournisseur) qui reste responsable de l'emission de la facture, meme si elle a cede sa creance a un factor. Le factor intervient dans le paiement, pas dans la facturation."
+  },
+  {
+    "id": "s7-u1-q04",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "En cas d'auto-facturation, c'est la PA de l'acheteur qui transmet la facture.",
+    "answer": "vrai",
+    "explanation": "Dans le cadre de l'auto-facturation, c'est l'acheteur qui emet le document. La facture transite donc par la PA de l'acheteur (emetteur) vers la PA du fournisseur (destinataire)."
+  },
+  {
+    "id": "s7-u1-q05",
+    "type": "qcm",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Une entreprise avec plusieurs etablissements (SIRET) peut-elle utiliser des PA differentes selon l'etablissement ?",
+    "options": [
+      "Non, une seule PA par SIREN obligatoirement",
+      "Oui, elle peut designer une PA differente par code service dans l'annuaire",
+      "Non, sauf autorisation speciale de la DGFiP",
+      "Oui, mais uniquement si les etablissements sont dans des villes differentes"
+    ],
+    "answer": 1,
+    "explanation": "Une entreprise peut designer des PA differentes dans l'annuaire en utilisant des codes service distincts (un par departement ou activite). C'est pratique pour les entreprises multi-activites avec des outils differents."
+  },
+  {
+    "id": "s7-u1-q06",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Les notes de debit et notes de credit sont soumises aux memes obligations que les factures.",
+    "answer": "vrai",
+    "explanation": "Les avoirs (notes de credit) et les notes de debit doivent egalement transiter par les PA au format electronique structure, au meme titre que les factures classiques."
+  },
+  {
+    "id": "s7-u1-q07",
+    "type": "qcm",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Comment traite-t-on une facture contestee par l'acheteur dans le circuit electronique ?",
+    "options": [
+      "On supprime la facture de la PA",
+      "L'acheteur emet un statut 'refusee' et le fournisseur emet un avoir",
+      "La PA annule automatiquement la facture apres 30 jours",
+      "L'acheteur renvoie la facture modifiee"
+    ],
+    "answer": 1,
+    "explanation": "En cas de litige, l'acheteur change le statut de la facture a 'refusee' via sa PA. Le fournisseur devra alors emettre un avoir (note de credit) pour annuler ou corriger la facture d'origine."
+  },
+  {
+    "id": "s7-u1-q08",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "La sous-traitance avec autoliquidation de TVA est un cas particulier prevu par la reforme.",
+    "answer": "vrai",
+    "explanation": "Les cas d'autoliquidation de TVA (sous-traitance dans le BTP, livraisons intracommunautaires) sont des cas particuliers prevus par les specifications de la reforme. La mention d'autoliquidation doit figurer sur la facture electronique."
+  },
+  {
+    "id": "s7-u2-q01",
+    "type": "qcm",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Les factures emises vers un client dans un autre pays de l'UE relevent de...",
+    "options": [
+      "L'e-invoicing obligatoirement",
+      "Le e-reporting (donnees de transaction)",
+      "Aucune obligation",
+      "L'e-invoicing et le e-reporting simultanement"
+    ],
+    "answer": 1,
+    "explanation": "Les transactions intracommunautaires (avec des clients dans d'autres pays de l'UE) ne relevent pas de l'e-invoicing (reserve au B2B domestique francais) mais du e-reporting : les donnees de transaction doivent etre transmises a l'administration."
+  },
+  {
+    "id": "s7-u2-q02",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Les factures d'importation (achats hors UE) sont soumises au e-reporting.",
+    "answer": "faux",
+    "explanation": "Les importations ne sont pas soumises au e-reporting. Seules les operations de vente a l'international (exports, livraisons intracommunautaires) et les prestations a des clients etrangers necessitent un e-reporting."
+  },
+  {
+    "id": "s7-u2-q03",
+    "type": "qcm",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "La directive europeenne ViDA (VAT in the Digital Age) entrera en vigueur en...",
+    "options": ["2026", "2027", "2028", "2030"],
+    "answer": 3,
+    "explanation": "La directive ViDA est reportee au 1er juillet 2030. Elle harmonisera la facturation electronique et le reporting TVA a l'echelle europeenne, remplacant a terme certaines obligations nationales de e-reporting."
+  },
+  {
+    "id": "s7-u2-q04",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Depuis la LF 2026, il n'est plus necessaire de declarer le detail ligne par ligne des factures entrantes internationales.",
+    "answer": "vrai",
+    "explanation": "C'est une simplification majeure de la LF 2026 : l'obligation de declarer ligne par ligne les factures entrantes internationales (UE et hors-UE) est supprimee jusqu'a l'entree en vigueur de la directive ViDA en 2030."
+  },
+  {
+    "id": "s7-u2-q05",
+    "type": "qcm",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Un prestataire de services francais qui facture un client allemand doit...",
+    "options": [
+      "Emettre une facture via sa PA (e-invoicing)",
+      "Transmettre les donnees via le e-reporting",
+      "Ne rien faire de special, c'est intra-UE",
+      "Utiliser obligatoirement Peppol"
+    ],
+    "answer": 1,
+    "explanation": "Les prestations a des clients etrangers (y compris intra-UE) ne relevent pas de l'e-invoicing mais du e-reporting. L'entreprise doit transmettre les donnees de transaction a l'administration via sa PA."
+  },
+  {
+    "id": "s7-u2-q06",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "La reforme francaise concerne aussi les echanges avec les pays hors Union Europeenne.",
+    "answer": "vrai",
+    "explanation": "Oui, via le e-reporting. Les ventes a l'export (hors UE) doivent faire l'objet d'une transmission de donnees a l'administration. En revanche, les importations ne sont pas concernees."
+  },
+  {
+    "id": "s7-u2-q07",
+    "type": "qcm",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "Les assujettis non etablis en France ont une obligation d'emission a partir de...",
+    "options": ["Septembre 2026", "Septembre 2027", "Janvier 2028", "Ils sont exemptes"],
+    "answer": 1,
+    "explanation": "La LF 2026 a reporte l'obligation d'emission pour les assujettis non etablis en France a septembre 2027, au lieu de septembre 2026. Cela leur laisse un an supplementaire pour se conformer."
+  },
+  {
+    "id": "s7-u2-q08",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Le reseau Peppol peut etre utilise pour echanger des factures avec des partenaires europeens.",
+    "answer": "vrai",
+    "explanation": "Peppol est un reseau international d'echange de documents electroniques. Plusieurs PA francaises utilisent Peppol pour l'interoperabilite avec d'autres pays, notamment pour les formats UBL."
+  },
+  {
+    "id": "s7-u3-q01",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Pennylane est immatriculee comme Plateforme Agreee (PA) par l'administration fiscale.",
+    "answer": "vrai",
+    "explanation": "Pennylane a obtenu son immatriculation comme Plateforme Agreee (anciennement PDP) validee par la DGFiP. L'entreprise participe au pilote lance en fevrier 2026 et teste l'interoperabilite avec l'AIFE, le SIM, Peppol et d'autres PA."
+  },
+  {
+    "id": "s7-u3-q02",
+    "type": "qcm",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel format de facture electronique Pennylane emet et recoit nativement ?",
+    "options": ["PDF classique", "Factur-X", "UBL uniquement", "EDI"],
+    "answer": 1,
+    "explanation": "Pennylane emet et recoit nativement au format Factur-X (PDF/A-3 + XML). 100% des entreprises et cabinets utilisant l'outil de facturation Pennylane emettent et recoivent deja du Factur-X."
+  },
+  {
+    "id": "s7-u3-q03",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Pennylane propose l'archivage a valeur probante via un cachet electronique qualifie.",
+    "answer": "vrai",
+    "explanation": "Depuis Q3 2025, Pennylane propose le cachet electronique qualifie (via Yousign, certifie eIDAS) sur les factures d'achat, de vente et notes de frais. Ce cachet garantit l'authenticite et l'integrite des documents, leur conferant une valeur probante."
+  },
+  {
+    "id": "s7-u3-q04",
+    "type": "qcm",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Pour designer Pennylane comme votre PA dans l'annuaire, que faut-il ?",
+    "options": [
+      "Un simple email a la DGFiP",
+      "Une verification d'identite du representant legal (2FA + piece d'identite)",
+      "Un courrier recommande au greffe du tribunal",
+      "Rien, c'est automatique"
+    ],
+    "answer": 1,
+    "explanation": "La designation de Pennylane comme PA dans l'annuaire se fait via le menu 'Facturation electronique > Transmission de factures' et necessite une verification d'identite du representant legal par authentification forte (2FA) et piece d'identite."
+  },
+  {
+    "id": "s7-u3-q05",
+    "type": "qcm",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Le cachet electronique qualifie de Pennylane s'applique-t-il retroactivement aux documents deja importes ?",
+    "options": [
+      "Oui, tous les documents passes sont automatiquement cachetes",
+      "Non, seuls les documents ajoutes apres activation sont couverts",
+      "Oui, mais uniquement les factures de vente",
+      "Oui, moyennant un supplement"
+    ],
+    "answer": 1,
+    "explanation": "Le cachet electronique n'est pas retroactif. Seuls les documents ajoutes apres activation de la fonctionnalite sont automatiquement cachetes. Il est donc recommande d'activer cette option le plus tot possible."
+  },
+  {
+    "id": "s7-u3-q06",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Pennylane repercute un cout supplementaire sur ses abonnements pour la facturation electronique.",
+    "answer": "faux",
+    "explanation": "Pennylane a fait le choix de proposer son service de facturation electronique gratuitement, sans surcout sur les abonnements habituels. C'est un argument de differenciation par rapport a d'autres PA qui facturent ce service."
+  },
+  {
+    "id": "s7-u3-q07",
+    "type": "qcm",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Combien de cabinets d'expertise comptable Pennylane accompagne-t-il ?",
+    "options": ["500", "1 500", "3 500", "10 000"],
+    "answer": 2,
+    "explanation": "Pennylane accompagne plus de 3 500 cabinets d'expertise comptable et plus de 200 000 dirigeants d'entreprise. C'est la premiere plateforme reunissant logiciel de production pour les EC et outil de gestion financiere pour les clients."
+  },
+  {
+    "id": "s7-u3-q08",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Pennylane a publie une charte d'engagement pour la profession comptable validee par huissier de justice.",
+    "answer": "vrai",
+    "explanation": "Pennylane a publie une charte d'engagement pour la profession comptable, validee par huissier de justice, qui formalise ses engagements envers les cabinets partenaires en matiere de facturation electronique."
+  },
+  {
+    "id": "s7-u4-q01",
+    "type": "qcm",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Quel pays est cite comme la principale reference en matiere de facturation electronique obligatoire B2B ?",
+    "options": ["L'Allemagne", "L'Espagne", "L'Italie", "Le Bresil"],
+    "answer": 2,
+    "explanation": "L'Italie est la reference europeenne. Elle a rendu la facturation electronique B2B obligatoire et les retours d'experience (Luca Pulli, RSM Italie) montrent 10 impacts positifs majeurs."
+  },
+  {
+    "id": "s7-u4-q02",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "En Italie, la facturation electronique a permis de reduire les frais postaux et d'impression.",
+    "answer": "vrai",
+    "explanation": "C'est l'un des 10 impacts positifs constates : l'elimination des frais postaux et d'impression des documents. Les economies sont substantielles, en particulier pour les entreprises a fort volume."
+  },
+  {
+    "id": "s7-u4-q03",
+    "type": "qcm",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "D'apres le retour d'experience italien, quel est l'impact le plus visible pour les cabinets comptables ?",
+    "options": [
+      "La disparition totale de leur activite",
+      "Un recentrage sur le conseil et le controle de gestion",
+      "Une baisse de leurs honoraires",
+      "L'obligation de changer de logiciel"
+    ],
+    "answer": 1,
+    "explanation": "En Italie, les cabinets se sont recentres sur des missions de conseil a plus forte valeur ajoutee (controle de gestion, accompagnement strategique). La concurrence sur la tenue simple s'est accrue mais les missions de conseil ont explose."
+  },
+  {
+    "id": "s7-u4-q04",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "L'experience italienne montre que les entreprises ont connu une longue periode de chaos avant de s'adapter.",
+    "answer": "faux",
+    "explanation": "D'apres les retours, apres une courte periode d'adaptation, les entreprises se sont rapidement adaptees et ont modernise leurs processus de ventes et d'achats. L'offre logicielle etait au rendez-vous avec des solutions efficaces a moindre cout."
+  },
+  {
+    "id": "s7-u4-q05",
+    "type": "qcm",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Combien d'impacts positifs de la facturation electronique en Italie sont cites par Luca Pulli (RSM) ?",
+    "options": ["5", "7", "10", "15"],
+    "answer": 2,
+    "explanation": "Luca Pulli, Associe et Directeur Innovation chez RSM Italie, cite 10 impacts positifs : gain de temps, economies, gain d'espace, securite archivage, simplicite, securite donnees, mobilite, reductions impots, controles simplifies, tracabilite."
+  },
+  {
+    "id": "s7-u4-q06",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "La facturation electronique en Italie a permis d'ameliorer la tracabilite des mouvements et des paiements.",
+    "answer": "vrai",
+    "explanation": "Le suivi simplifie de l'envoi et de la reception des documents ainsi que des paiements est l'un des 10 impacts positifs constates en Italie. La tracabilite de bout en bout est un gain majeur."
+  },
+  {
+    "id": "s7-u4-q07",
+    "type": "qcm",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Quel avantage l'archivage digital a-t-il apporte aux entreprises italiennes ?",
+    "options": [
+      "Plus besoin de conserver aucun document",
+      "Reduction du stockage papier et archivage conforme pendant 10 ans",
+      "Suppression de toutes les obligations fiscales",
+      "Possibilite de modifier les factures apres envoi"
+    ],
+    "answer": 1,
+    "explanation": "L'archivage digital conforme a la loi permet un stockage securise pendant 10 ans minimum, eliminant le besoin de conserver des factures papier. Le gain d'espace physique est significatif."
+  },
+  {
+    "id": "s7-u4-q08",
+    "type": "vrai-faux",
+    "section": 7,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "La France est le premier pays de l'Union Europeenne a rendre la facturation electronique B2B obligatoire.",
+    "answer": "faux",
+    "explanation": "L'Italie a ete pionniere en Europe. La France s'inspire largement de l'experience italienne, tout en adoptant un modele different (plateforme decentralisee via les PA, contrairement au modele centralise italien via le SDI)."
+  }
+]

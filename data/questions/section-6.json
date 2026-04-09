@@ -1,0 +1,341 @@
+[
+  {
+    "id": "s6-u1-q01",
+    "type": "qcm",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Quel est le premier critere pour segmenter le portefeuille clients d'un cabinet ?",
+    "options": ["Le chiffre d'affaires du client", "La nature des flux : B2B, B2C, B2G, international", "La taille du cabinet", "Le logiciel utilise par le client"],
+    "answer": 1,
+    "explanation": "La nature des flux determine les obligations : B2B domestique = facturation electronique, B2C et international = e-reporting, B2G = deja sur Chorus Pro. C'est le point de depart de toute segmentation."
+  },
+  {
+    "id": "s6-u1-q02",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Un client en franchise en base de TVA n'est pas concerne par la reforme.",
+    "answer": "faux",
+    "explanation": "Toute entreprise assujettie a la TVA est concernee, y compris celles en franchise en base. Elles devront recevoir des factures electroniques et transmettre du e-reporting pour leurs ventes B2C."
+  },
+  {
+    "id": "s6-u1-q03",
+    "type": "qcm",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Pourquoi la maturite numerique du client est-elle un critere important de segmentation ?",
+    "options": ["Pour facturer plus cher les clients peu numerises", "Pour adapter le niveau d'accompagnement et le choix d'outils", "Pour decider si le client doit se conformer ou non", "Pour reporter l'echeance du client"],
+    "answer": 1,
+    "explanation": "Un client deja equipe d'un ERP ou d'un logiciel de facturation n'aura pas les memes besoins qu'un client qui facture sous Word. La maturite numerique guide le choix de la solution et l'intensite de l'accompagnement."
+  },
+  {
+    "id": "s6-u1-q04",
+    "type": "qcm",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Comment classer un client qui fait 90% de B2C et 10% de B2B domestique ?",
+    "options": ["Uniquement e-reporting", "Uniquement facturation electronique", "Facturation electronique pour le B2B + e-reporting pour le B2C", "Aucune obligation"],
+    "answer": 2,
+    "explanation": "Ce client a une double obligation : facturation electronique pour ses 10% de B2B domestique, et e-reporting pour ses 90% de B2C. La segmentation par flux permet d'identifier cette dualite."
+  },
+  {
+    "id": "s6-u1-q05",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Les clients qui facturent deja le secteur public via Chorus Pro sont les mieux prepares a la reforme.",
+    "answer": "vrai",
+    "explanation": "Les entreprises utilisant Chorus Pro (B2G) ont deja l'experience de la facturation electronique structuree. Elles sont generalement plus avancees dans leur maturite numerique et leur conformite."
+  },
+  {
+    "id": "s6-u1-q06",
+    "type": "qcm",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Quel type de client doit etre traite en priorite dans la preparation a la reforme ?",
+    "options": ["Les grandes entreprises deja equipees", "Les clients avec un fort volume de factures et une faible maturite numerique", "Les clients en franchise en base de TVA", "Les clients qui font uniquement du B2G"],
+    "answer": 1,
+    "explanation": "Les clients a fort volume et faible maturite numerique presentent le plus grand risque de non-conformite. Ils necessitent un accompagnement approfondi et un delai de mise en oeuvre plus long."
+  },
+  {
+    "id": "s6-u1-q07",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Le regime de TVA du client influence uniquement la frequence du e-reporting, pas ses obligations de facturation electronique.",
+    "answer": "vrai",
+    "explanation": "Le regime de TVA (reel normal, simplifie, franchise) determine la periodicite du e-reporting (mensuel, bimestriel, trimestriel). En revanche, l'obligation de facturation electronique est la meme pour tous les assujettis."
+  },
+  {
+    "id": "s6-u1-q08",
+    "type": "qcm",
+    "section": 6,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Un client 100% a l'export a-t-il des obligations liees a la reforme ?",
+    "options": ["Aucune obligation", "Facturation electronique uniquement", "E-reporting uniquement", "Facturation electronique et e-reporting"],
+    "answer": 2,
+    "explanation": "Les operations a l'export ne relevent pas de la facturation electronique (pas de B2B domestique). En revanche, ces operations internationales sont soumises au e-reporting pour permettre a l'administration de reconstituer l'activite."
+  },
+  {
+    "id": "s6-u2-q01",
+    "type": "qcm",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Combien d'etapes comporte la methode DIGITAL ?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2,
+    "explanation": "La methode DIGITAL comporte 7 etapes : Diagnostic, Inspection TVA, cartographie (G pour Graphe des flux), Inventaire des donnees, Technologie & architecture, Adoption du canal, Lancement & suivi."
+  },
+  {
+    "id": "s6-u2-q02",
+    "type": "fill-blank",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "La premiere etape de la methode DIGITAL est le __________.",
+    "answer": "Diagnostic",
+    "explanation": "Le Diagnostic est la premiere etape : il s'agit d'evaluer la situation actuelle du client (organisation, outils, processus, maturite numerique) avant de proposer des solutions."
+  },
+  {
+    "id": "s6-u2-q03",
+    "type": "qcm",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Que couvre l'etape 'Inspection TVA' de la methode DIGITAL ?",
+    "options": ["Un controle fiscal du client", "La verification du regime TVA, des options et des specificites du client", "L'inscription au registre de TVA", "La declaration de TVA du dernier exercice"],
+    "answer": 1,
+    "explanation": "L'Inspection TVA verifie le regime de TVA (reel normal, simplifie, franchise), les options (debits/encaissements), les specificites sectorielles (marge, autoliquidation) qui impactent les obligations."
+  },
+  {
+    "id": "s6-u2-q04",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "L'etape 'Inventaire des donnees' consiste a verifier que toutes les mentions obligatoires sont presentes dans les systemes du client.",
+    "answer": "vrai",
+    "explanation": "L'Inventaire des donnees permet de verifier que les donnees requises (SIREN, categorie d'operation, adresse de livraison...) sont bien presentes et correctement renseignees dans les outils du client."
+  },
+  {
+    "id": "s6-u2-q05",
+    "type": "qcm",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Que signifie le 'A' de la methode DIGITAL ?",
+    "options": ["Automatisation", "Adoption du canal", "Analyse des risques", "Archivage"],
+    "answer": 1,
+    "explanation": "Le A correspond a 'Adoption du canal' : il s'agit de choisir et mettre en place le canal de transmission (Plateforme Agreee) et de former les utilisateurs a son utilisation."
+  },
+  {
+    "id": "s6-u2-q06",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "La derniere etape de la methode DIGITAL est le lancement, sans suivi post-deploiement.",
+    "answer": "faux",
+    "explanation": "La derniere etape est 'Lancement & suivi'. Le suivi post-deploiement est essentiel pour verifier que tout fonctionne, corriger les anomalies et accompagner les utilisateurs dans la duree."
+  },
+  {
+    "id": "s6-u2-q07",
+    "type": "qcm",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "L'etape 'Technologie & architecture' de la methode DIGITAL consiste a :",
+    "options": ["Developper un logiciel sur mesure", "Choisir la PA, le format et definir l'architecture technique cible", "Installer un ERP pour tous les clients", "Former l'equipe informatique du client"],
+    "answer": 1,
+    "explanation": "Cette etape definit l'architecture technique : choix de la Plateforme Agreee, du format (Factur-X, UBL, CII), des connexions avec les outils existants et du flux de donnees cible."
+  },
+  {
+    "id": "s6-u2-q08",
+    "type": "fill-blank",
+    "section": 6,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Dans la methode DIGITAL, le G correspond a la cartographie des flux, aussi appelee Graphe des __________.",
+    "answer": "flux",
+    "explanation": "Le G de DIGITAL correspond au Graphe des flux : cartographier les flux entrants et sortants du client (B2B, B2C, B2G, international) pour identifier toutes les obligations."
+  },
+  {
+    "id": "s6-u3-q01",
+    "type": "qcm",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Quel est l'objectif principal de la cartographie des flux d'un client ?",
+    "options": ["Reduire le nombre de factures emises", "Identifier les obligations (facturation electronique et/ou e-reporting) pour chaque type de flux", "Calculer le chiffre d'affaires previsionnel", "Choisir le logiciel comptable"],
+    "answer": 1,
+    "explanation": "La cartographie des flux permet de determiner quelles obligations s'appliquent a chaque type de transaction : facturation electronique pour le B2B domestique, e-reporting pour le B2C et l'international."
+  },
+  {
+    "id": "s6-u3-q02",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Le volume de factures d'un client est une information importante pour la cartographie des flux.",
+    "answer": "vrai",
+    "explanation": "Le volume impacte le choix de la solution technique (un client a 50 factures/an n'a pas les memes besoins qu'un client a 5 000/mois) et l'estimation de la charge de mise en conformite."
+  },
+  {
+    "id": "s6-u3-q03",
+    "type": "qcm",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quels types de flux faut-il recenser dans la cartographie ?",
+    "options": ["Uniquement les flux de vente", "Les flux de vente et d'achat, entrants et sortants", "Uniquement les flux B2B", "Uniquement les flux soumis a TVA"],
+    "answer": 1,
+    "explanation": "La cartographie doit couvrir tous les flux : ventes (emission) et achats (reception), B2B, B2C, B2G et international. Les obligations s'appliquent aussi bien en emission qu'en reception."
+  },
+  {
+    "id": "s6-u3-q04",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Un client qui a des flux B2G via Chorus Pro n'a plus besoin de cartographier ces flux.",
+    "answer": "faux",
+    "explanation": "Les flux B2G doivent etre inclus dans la cartographie pour avoir une vue complete. Meme si Chorus Pro est deja en place, ces flux doivent etre articules avec les autres canaux (PA pour le B2B)."
+  },
+  {
+    "id": "s6-u3-q05",
+    "type": "qcm",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Comment determiner si un flux international est soumis au e-reporting ?",
+    "options": ["Tous les flux internationaux sont exemptes", "Seuls les flux intracommunautaires sont concernes", "Tous les flux internationaux d'une entreprise assujettie sont soumis au e-reporting", "Seuls les flux d'export sont concernes"],
+    "answer": 2,
+    "explanation": "Toutes les operations internationales (intracommunautaire, export, import de services) d'une entreprise assujettie a la TVA sont soumises au e-reporting, sans exception."
+  },
+  {
+    "id": "s6-u3-q06",
+    "type": "qcm",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel format actuel des factures du client est le plus important a identifier lors de la cartographie ?",
+    "options": ["Le format des factures archivees", "Le format d'emission et de reception actuel (papier, PDF, EDI, Factur-X...)", "Le format des relances", "Le format des devis"],
+    "answer": 1,
+    "explanation": "Connaitre le format actuel (papier, PDF email, EDI, portail) permet de mesurer l'ecart avec les exigences de la reforme et d'estimer la charge de migration vers un format structure."
+  },
+  {
+    "id": "s6-u3-q07",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Un client ayant un mix de flux B2B/B2C/international necessite une seule solution technique pour tout couvrir.",
+    "answer": "faux",
+    "explanation": "Un client avec des flux mixtes peut avoir besoin de plusieurs canaux : une PA pour la facturation electronique B2B, le meme ou un autre canal pour le e-reporting B2C et international. La cartographie sert justement a identifier cette complexite."
+  },
+  {
+    "id": "s6-u3-q08",
+    "type": "qcm",
+    "section": 6,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Lors de la cartographie, que faut-il verifier concernant les achats du client ?",
+    "options": ["Rien, seules les ventes sont concernees", "La capacite a recevoir des factures electroniques structurees via une PA", "Le volume d'achats uniquement", "Les conditions de paiement fournisseurs"],
+    "answer": 1,
+    "explanation": "En reception, le client devra etre capable de recevoir des factures electroniques via une PA des septembre 2026. Il faut verifier que ses outils et processus sont prets a traiter des formats structures."
+  },
+  {
+    "id": "s6-u4-q01",
+    "type": "qcm",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Quels sont les trois grands types de solutions pour se conformer a la reforme ?",
+    "options": ["ERP, CRM, Tableur", "Operateur de Dematerialisation (OD), Plateforme Agreee (PA), Outil de gestion complet", "Expert-comptable, Avocat, Consultant", "Factur-X, UBL, CII"],
+    "answer": 1,
+    "explanation": "Les trois approches sont : un OD qui connecte a une PA, une PA directe, ou un outil de gestion complet (comme Pennylane) qui integre nativement les fonctionnalites de facturation electronique."
+  },
+  {
+    "id": "s6-u4-q02",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Toute entreprise doit obligatoirement s'inscrire directement aupres d'une Plateforme Agreee.",
+    "answer": "faux",
+    "explanation": "Une entreprise peut passer par un Operateur de Dematerialisation (OD) qui sert d'intermediaire avec une PA. Beaucoup de logiciels de facturation jouent ce role d'OD pour leurs utilisateurs."
+  },
+  {
+    "id": "s6-u4-q03",
+    "type": "qcm",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Quel est l'avantage principal d'un outil de gestion complet par rapport a un simple OD ?",
+    "options": ["Il est toujours moins cher", "Il integre facturation, comptabilite et conformite dans un seul environnement", "Il permet d'eviter le e-reporting", "Il est obligatoire pour les grandes entreprises"],
+    "answer": 1,
+    "explanation": "Un outil complet comme Pennylane integre la facturation, la comptabilite et la conformite RFE. Cela evite les ruptures de flux et la multiplication des outils, tout en fluidifiant la collaboration cabinet-client."
+  },
+  {
+    "id": "s6-u4-q04",
+    "type": "qcm",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Quel critere est le moins pertinent pour choisir entre un OD et une PA ?",
+    "options": ["Le volume de factures du client", "La couleur de l'interface du logiciel", "Les formats supportes (Factur-X, UBL, CII)", "La capacite a gerer le e-reporting"],
+    "answer": 1,
+    "explanation": "Le choix entre OD et PA doit se baser sur des criteres fonctionnels : volume, formats supportes, e-reporting, integration avec les outils existants, couverture B2B/B2C/international."
+  },
+  {
+    "id": "s6-u4-q05",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Pennylane se positionne comme un outil de gestion complet integrant nativement la conformite a la reforme.",
+    "answer": "vrai",
+    "explanation": "Pennylane integre facturation, comptabilite et conformite RFE dans une seule plateforme. Cette approche tout-en-un simplifie la transition pour les cabinets et leurs clients."
+  },
+  {
+    "id": "s6-u4-q06",
+    "type": "qcm",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Pour un client TPE avec 20 factures par mois et peu de maturite numerique, quelle approche est la plus adaptee ?",
+    "options": ["Developpement d'une solution sur mesure", "Un outil de gestion complet et simple d'utilisation", "Une PA technique avec API", "Un ERP industriel"],
+    "answer": 1,
+    "explanation": "Pour une TPE a faible volume et faible maturite, un outil complet et intuitif est ideal. Il offre une prise en main rapide, integre toutes les obligations et ne necessite pas de competences techniques."
+  },
+  {
+    "id": "s6-u4-q07",
+    "type": "vrai-faux",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "Un client deja equipe d'un ERP peut conserver son outil actuel et simplement y connecter un OD ou une PA.",
+    "answer": "vrai",
+    "explanation": "Les entreprises deja equipees d'un ERP n'ont pas besoin de tout changer. Elles peuvent connecter leur outil existant a un OD ou une PA via des API ou des connecteurs pour se conformer a la reforme."
+  },
+  {
+    "id": "s6-u4-q08",
+    "type": "qcm",
+    "section": 6,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "Quels elements doit contenir une grille de comparaison pour recommander une solution a un client ?",
+    "options": ["Uniquement le prix", "Prix, formats supportes, e-reporting, integration comptable, accompagnement, scalabilite", "Uniquement la conformite legale", "Le nombre d'utilisateurs et le design de l'interface"],
+    "answer": 1,
+    "explanation": "Une grille de comparaison complete doit couvrir : le prix, les formats supportes, la gestion du e-reporting, l'integration avec la comptabilite, l'accompagnement propose et la capacite a evoluer avec le client."
+  }
+]

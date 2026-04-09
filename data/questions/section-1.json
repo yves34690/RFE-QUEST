@@ -1,0 +1,316 @@
+[
+  {
+    "id": "s1-u1-q01",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Un PDF envoye par email est considere comme une facture electronique au sens de la reforme.",
+    "answer": "faux",
+    "explanation": "Une facture electronique doit respecter un format structure (Factur-X, UBL ou CII) et transiter par une Plateforme Agreee. Un simple PDF par email ne remplit aucune de ces conditions."
+  },
+  {
+    "id": "s1-u1-q02",
+    "type": "qcm",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Quel format de facture electronique est un hybride PDF + XML ?",
+    "options": ["UBL", "Factur-X", "CII", "PDF/A"],
+    "answer": 1,
+    "explanation": "Factur-X est un format hybride : un PDF/A-3 lisible par l'humain, avec un fichier XML structure embarque lisible par la machine. C'est le format le plus repandu en France."
+  },
+  {
+    "id": "s1-u1-q03",
+    "type": "qcm",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Quels sont les 3 formats de facture electronique autorises par la reforme ?",
+    "options": ["PDF, Word, Excel", "Factur-X, UBL, CII", "XML, JSON, CSV", "Factur-X, PDF/A, EDI"],
+    "answer": 1,
+    "explanation": "Les 3 formats autorises sont Factur-X (hybride PDF+XML), UBL (XML pur, standard international) et CII (XML pur UN/CEFACT). Tous sont conformes a la norme europeenne EN 16931."
+  },
+  {
+    "id": "s1-u1-q04",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "La facture electronique permet le traitement automatique des donnees sans OCR.",
+    "answer": "vrai",
+    "explanation": "Contrairement a un PDF classique qui necessite de l'OCR (reconnaissance de caracteres), une facture electronique contient des donnees structurees directement exploitables par les systemes informatiques."
+  },
+  {
+    "id": "s1-u1-q05",
+    "type": "fill-blank",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Le format Factur-X est un fichier PDF/A-__ avec un XML embarque.",
+    "answer": "3",
+    "explanation": "Factur-X utilise le standard PDF/A-3 qui permet d'embarquer des fichiers annexes, dont le fichier XML structure contenant les donnees de la facture."
+  },
+  {
+    "id": "s1-u1-q06",
+    "type": "qcm",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Quelle norme europeenne encadre les formats de facture electronique ?",
+    "options": ["ISO 27001", "EN 16931", "RGPD", "NF Z42-013"],
+    "answer": 1,
+    "explanation": "La norme EN 16931 definit le modele semantique de la facture electronique en Europe. Les 3 formats autorises (Factur-X, UBL, CII) y sont conformes."
+  },
+  {
+    "id": "s1-u1-q07",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Une facture creee avec Word ou Excel sera conforme a la reforme.",
+    "answer": "faux",
+    "explanation": "Non ! Une fois l'obligation d'emission en vigueur, il faudra utiliser un outil capable de generer des factures dans un format structure (Factur-X, UBL, CII) et de les transmettre via une Plateforme Agreee."
+  },
+  {
+    "id": "s1-u1-q08",
+    "type": "qcm",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Quel est le principal avantage du format Factur-X par rapport au UBL ?",
+    "options": [
+      "Il est gratuit",
+      "Il est lisible par l'humain ET par la machine",
+      "Il est plus leger en taille",
+      "Il est obligatoire"
+    ],
+    "answer": 1,
+    "explanation": "Factur-X combine un PDF lisible par l'humain et un XML lisible par la machine. Le UBL est du XML pur, necessitant un logiciel pour le lire. Aucun des 3 formats n'est obligatoire — le choix est libre."
+  },
+  {
+    "id": "s1-u2-q01",
+    "type": "qcm",
+    "section": 1,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "La reforme repose sur 2 piliers. Lesquels ?",
+    "options": [
+      "E-invoicing et e-reporting",
+      "E-invoicing et e-archiving",
+      "E-reporting et e-signature",
+      "E-facturation et e-paiement"
+    ],
+    "answer": 0,
+    "explanation": "Les 2 piliers sont : l'e-invoicing (facturation electronique B2B entre entreprises francaises) et l'e-reporting (transmission de donnees a l'administration pour les operations B2C et internationales)."
+  },
+  {
+    "id": "s1-u2-q02",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "L'e-invoicing concerne les factures entre une entreprise et un particulier (B2C).",
+    "answer": "faux",
+    "explanation": "L'e-invoicing concerne uniquement les echanges B2B entre entreprises privees de droit francais, assujetties a la TVA. Les transactions B2C relevent de l'e-reporting."
+  },
+  {
+    "id": "s1-u2-q03",
+    "type": "qcm",
+    "section": 1,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Le e-reporting couvre quels types de transactions ?",
+    "options": [
+      "Uniquement les ventes B2B domestiques",
+      "Les ventes B2C, les transactions internationales, et les donnees de paiement associees",
+      "Uniquement les importations",
+      "Toutes les transactions sans exception"
+    ],
+    "answer": 1,
+    "explanation": "Le e-reporting concerne les transactions hors champ de l'e-invoicing : ventes B2C (aux particuliers) et transactions internationales (export, intra-UE). Deux types de donnees sont transmises a l'administration : les donnees de transaction (montant, TVA, date) ET les donnees de paiement (modalites, date de reglement)."
+  },
+  {
+    "id": "s1-u2-q04",
+    "type": "fill-blank",
+    "section": 1,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "L'e-invoicing concerne les echanges B2B entre entreprises privees de droit ________.",
+    "answer": "francais",
+    "explanation": "L'e-invoicing s'applique aux echanges entre entreprises privees etablies en France et assujetties a la TVA. Les transactions avec des entreprises etrangeres relevent de l'e-reporting."
+  },
+  {
+    "id": "s1-u2-q05",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Le e-reporting transmet a l'administration des donnees de transaction ET de paiement.",
+    "answer": "vrai",
+    "explanation": "Le e-reporting comprend 2 types de donnees : les donnees de transaction (montant, TVA, date, client) et les donnees de paiement (modalites et date de paiement)."
+  },
+  {
+    "id": "s1-u2-q06",
+    "type": "qcm",
+    "section": 1,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Une entreprise francaise qui vend des produits a l'export est concernee par...",
+    "options": [
+      "L'e-invoicing uniquement",
+      "Le e-reporting uniquement",
+      "Les deux",
+      "Aucun des deux"
+    ],
+    "answer": 1,
+    "explanation": "Les ventes a l'export (hors France) ne sont pas du B2B domestique, donc elles ne relevent pas de l'e-invoicing. En revanche, l'entreprise devra transmettre les donnees de ces transactions via le e-reporting."
+  },
+  {
+    "id": "s1-u3-q01",
+    "type": "qcm",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Combien d'objectifs principaux poursuit le gouvernement avec cette reforme ?",
+    "options": ["2", "3", "4", "6"],
+    "answer": 2,
+    "explanation": "4 objectifs : 1) Renforcer la competitivite des entreprises, 2) Simplifier les obligations declaratives TVA, 3) Lutter contre la fraude fiscale, 4) Ameliorer la connaissance en temps reel de l'economie."
+  },
+  {
+    "id": "s1-u3-q02",
+    "type": "qcm",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "A combien l'Etat estime-t-il les gains annuels pour les TPE et PME grace a la facturation electronique ?",
+    "options": ["500 millions d'euros", "1,5 milliard d'euros", "4,5 milliards d'euros", "10 milliards d'euros"],
+    "answer": 2,
+    "explanation": "L'Etat estime a 4,5 milliards d'euros par an les gains que les TPE et PME realiseront grace a l'allegement de la charge administrative et aux gains de productivite lies a la dematerialisation."
+  },
+  {
+    "id": "s1-u3-q03",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Un des objectifs de la reforme est de pre-remplir les declarations de TVA a terme.",
+    "answer": "vrai",
+    "explanation": "Grace aux donnees collectees via l'e-invoicing et le e-reporting, l'administration pourra a terme pre-remplir les declarations de TVA, simplifiant considerablement les obligations declaratives."
+  },
+  {
+    "id": "s1-u3-q04",
+    "type": "qcm",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel pays est cite comme reference pour son retour d'experience en facturation electronique obligatoire ?",
+    "options": ["L'Allemagne", "L'Espagne", "L'Italie", "Le Royaume-Uni"],
+    "answer": 2,
+    "explanation": "L'Italie a rendu la facturation electronique obligatoire en B2B et fait figure de reference. Parmi les 10 impacts positifs constates : gain de temps, economies, securite de l'archivage, et tracabilite des paiements."
+  },
+  {
+    "id": "s1-u3-q05",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "La reforme vise uniquement a lutter contre la fraude fiscale.",
+    "answer": "faux",
+    "explanation": "La lutte contre la fraude est UN des 4 objectifs, mais la reforme vise aussi la competitivite des entreprises, la simplification des declarations TVA et une meilleure connaissance de l'economie en temps reel."
+  },
+  {
+    "id": "s1-u3-q06",
+    "type": "qcm",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Pour les cabinets d'expertise comptable, la reforme va permettre de...",
+    "options": [
+      "Supprimer toutes les missions de tenue",
+      "Se recentrer sur des missions de conseil a plus forte valeur ajoutee",
+      "Reduire le nombre de clients necessaire",
+      "Eliminer le besoin de logiciel comptable"
+    ],
+    "answer": 1,
+    "explanation": "La facturation electronique va automatiser une partie des taches de saisie, lettrage et TVA, liberant du temps pour des missions de conseil (accompagnement financier, RSE, etc.) a plus forte valeur ajoutee."
+  },
+  {
+    "id": "s1-u3-q07",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "La France est le premier pays au monde a rendre la facturation electronique obligatoire en B2B.",
+    "answer": "faux",
+    "explanation": "L'Amerique latine et l'Italie ont ete pionniers. L'Italie a rendu la facturation electronique B2B obligatoire avant la France, et son experience sert de reference pour la reforme francaise."
+  },
+  {
+    "id": "s1-u3-q08",
+    "type": "qcm",
+    "section": 1,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel nouveau type de mission les cabinets pourront-ils developper grace aux donnees de la facturation electronique ?",
+    "options": [
+      "La saisie manuelle des factures",
+      "Le conseil et l'analyse financiere a partir des donnees structurees",
+      "L'impression et l'envoi postal des factures",
+      "La creation de sites web pour leurs clients"
+    ],
+    "answer": 1,
+    "explanation": "Avec les donnees structurees des factures electroniques (detail des lignes, montants, TVA...), les cabinets pourront proposer des missions de conseil a forte valeur ajoutee : analyse financiere, pilotage de tresorerie, accompagnement strategique — bien au-dela de la simple tenue comptable."
+  },
+  {
+    "id": "s1-u1-q09",
+    "type": "qcm",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Qu'est-ce que l'archivage a valeur probante ?",
+    "options": [
+      "Un simple stockage de fichiers dans le cloud",
+      "Un processus garantissant qu'un document numerique peut servir de preuve legale",
+      "Une sauvegarde automatique sur disque dur",
+      "Un envoi de factures par email certifie"
+    ],
+    "answer": 1,
+    "explanation": "L'archivage a valeur probante garantit 3 proprietes : authenticite (l'auteur est identifie), integrite (le document n'a pas ete modifie) et lisibilite dans le temps. Un document ainsi archive a la meme force probante que le papier original (article 1366 du Code civil)."
+  },
+  {
+    "id": "s1-u1-q10",
+    "type": "vrai-faux",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Stocker ses factures sur Google Drive ou OneDrive constitue un archivage a valeur probante.",
+    "answer": "faux",
+    "explanation": "Non. Le stockage cloud classique ne garantit ni l'authenticite, ni l'integrite, ni la tracabilite des documents. L'archivage a valeur probante necessite des mecanismes specifiques : cachet electronique qualifie, horodatage, empreinte numerique (hash) et journal d'audit."
+  },
+  {
+    "id": "s1-u1-q11",
+    "type": "qcm",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Quels sont les 3 piliers de l'archivage a valeur probante ?",
+    "options": [
+      "Rapidite, simplicite, gratuity",
+      "Authenticite, integrite, lisibilite",
+      "Confidentialite, disponibilite, scalabilite",
+      "Chiffrement, compression, deduplication"
+    ],
+    "answer": 1,
+    "explanation": "Les 3 piliers sont : authenticite (l'identite de l'emetteur est verifiable), integrite (le document n'a pas ete altere depuis sa creation) et lisibilite (le document reste consultable dans le temps). C'est ce qu'exige l'article 289 du CGI pour les factures electroniques."
+  },
+  {
+    "id": "s1-u1-q12",
+    "type": "fill-blank",
+    "section": 1,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "La norme francaise de reference pour l'archivage electronique a valeur probante est la NF Z42-______.",
+    "answer": "013",
+    "explanation": "La norme NF Z42-013 (AFNOR) definit les exigences fonctionnelles, organisationnelles et de securite pour les Systemes d'Archivage Electronique (SAE). La certification NF 461 atteste de la conformite a cette norme."
+  }
+]

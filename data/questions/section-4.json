@@ -1,0 +1,339 @@
+[
+  {
+    "id": "s4-u1-q01",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Factur-X est un fichier PDF/A-3 contenant un fichier XML embarque.",
+    "answer": "vrai",
+    "explanation": "Factur-X est un format hybride : un PDF/A-3 lisible par l'humain avec un XML structure embarque. C'est ce qui le differencie d'un simple PDF."
+  },
+  {
+    "id": "s4-u1-q02",
+    "type": "qcm",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Quel est l'avantage principal du format Factur-X par rapport a un PDF classique ?",
+    "options": ["Il est plus leger en taille", "Il ne necessite pas d'OCR pour extraire les donnees", "Il est compatible avec Word", "Il peut contenir des images animees"],
+    "answer": 1,
+    "explanation": "Grace au XML embarque, les donnees de la facture sont directement exploitables par les logiciels sans recourir a l'OCR (reconnaissance optique de caracteres)."
+  },
+  {
+    "id": "s4-u1-q03",
+    "type": "qcm",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Combien de profils Factur-X existent ?",
+    "options": ["3", "5", "6", "8"],
+    "answer": 2,
+    "explanation": "Factur-X definit 6 profils de richesse croissante : Minimum, Basic WL, Basic, EN 16931 (Comfort), Extended et XRechnung. Plus le profil est eleve, plus le XML contient d'informations."
+  },
+  {
+    "id": "s4-u1-q04",
+    "type": "qcm",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Quel profil Factur-X est le minimum requis pour etre conforme a la norme EN 16931 ?",
+    "options": ["Minimum", "Basic", "EN 16931 (Comfort)", "Extended"],
+    "answer": 2,
+    "explanation": "Le profil EN 16931, aussi appele Comfort, est le premier niveau qui respecte integralement la norme europeenne. Les profils inferieurs (Minimum, Basic WL, Basic) ne couvrent pas toutes les donnees requises."
+  },
+  {
+    "id": "s4-u1-q05",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Factur-X est le format de facture electronique le plus utilise en France.",
+    "answer": "vrai",
+    "explanation": "Factur-X est le format privilegie en France car il combine lisibilite humaine (PDF) et lisibilite machine (XML). Il est soutenu par le FNFE-MPE et adopte par la majorite des editeurs francais."
+  },
+  {
+    "id": "s4-u1-q06",
+    "type": "fill-blank",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Le format Factur-X est aussi connu sous le nom de ZUGFeRD en __________.",
+    "answer": "Allemagne",
+    "explanation": "Factur-X est le fruit d'une cooperation franco-allemande. En Allemagne, le meme format s'appelle ZUGFeRD. Depuis la version 2.0, les deux standards sont totalement alignes."
+  },
+  {
+    "id": "s4-u1-q07",
+    "type": "qcm",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Quel profil Factur-X est recommande pour les TPE qui veulent le minimum de donnees structurees ?",
+    "options": ["Minimum", "Basic WL", "EN 16931 (Comfort)", "Extended"],
+    "answer": 0,
+    "explanation": "Le profil Minimum contient uniquement les donnees essentielles (identifiants, montants, dates). Il convient aux petites structures qui souhaitent emettre des Factur-X sans renseigner un grand nombre de champs."
+  },
+  {
+    "id": "s4-u1-q08",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Avec Factur-X, le PDF et le XML peuvent contenir des informations differentes : c'est le XML qui fait foi.",
+    "answer": "vrai",
+    "explanation": "En cas de divergence entre le PDF visible et le XML embarque, c'est le XML structure qui fait foi legalement. C'est pourquoi il est crucial que les deux soient coherents."
+  },
+  {
+    "id": "s4-u2-q01",
+    "type": "qcm",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Quelle est la caracteristique commune des formats UBL et CII ?",
+    "options": ["Ils contiennent un PDF", "Ce sont des formats XML purs", "Ils necessitent de l'OCR", "Ils sont reserves au secteur public"],
+    "answer": 1,
+    "explanation": "UBL et CII sont tous deux des formats XML purs, sans composante PDF. Ils sont lisibles uniquement par des machines et necessitent un logiciel pour etre visualises par un humain."
+  },
+  {
+    "id": "s4-u2-q02",
+    "type": "fill-blank",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "La norme europeenne qui encadre les formats de facturation electronique est l'EN __________.",
+    "answer": "16931",
+    "explanation": "La norme EN 16931 definit le modele semantique des donnees d'une facture electronique en Europe. Les trois formats autorises (Factur-X, UBL, CII) en sont des declinaisons techniques."
+  },
+  {
+    "id": "s4-u2-q03",
+    "type": "qcm",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Quel format XML est utilise par le reseau Peppol ?",
+    "options": ["CII", "Factur-X", "UBL", "EDIFACT"],
+    "answer": 2,
+    "explanation": "Le reseau Peppol, utilise pour les echanges transfrontaliers en Europe, a adopte UBL comme format standard. Les factures Peppol BIS 3.0 sont basees sur UBL 2.1."
+  },
+  {
+    "id": "s4-u2-q04",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Le format CII a ete developpe par l'OASIS, la meme organisation que UBL.",
+    "answer": "faux",
+    "explanation": "CII (Cross-Industry Invoice) a ete developpe par l'UN/CEFACT, une agence des Nations Unies. UBL (Universal Business Language) a ete developpe par l'OASIS. Ce sont deux organisations distinctes."
+  },
+  {
+    "id": "s4-u2-q05",
+    "type": "qcm",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Dans quel cas le format UBL est-il particulierement recommande ?",
+    "options": ["Pour les factures B2C", "Pour les echanges internationaux via Peppol", "Pour les micro-entreprises", "Pour les factures papier numerisees"],
+    "answer": 1,
+    "explanation": "UBL est le standard de Peppol, le reseau europeen d'echange de documents commerciaux. Il est donc particulierement adapte aux entreprises ayant des echanges transfrontaliers."
+  },
+  {
+    "id": "s4-u2-q06",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "UBL et CII sont tous les deux conformes a la norme EN 16931.",
+    "answer": "vrai",
+    "explanation": "La norme EN 16931 definit un modele semantique que UBL et CII implementent chacun avec leur propre syntaxe XML. Les deux sont donc des declinaisons valides de la meme norme."
+  },
+  {
+    "id": "s4-u2-q07",
+    "type": "qcm",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "Quelle est la difference principale entre Factur-X et CII au niveau technique ?",
+    "options": ["Factur-X utilise JSON, CII utilise XML", "Le XML embarque dans Factur-X est base sur CII, mais Factur-X ajoute un PDF", "CII est un format proprietary, Factur-X est open source", "CII est plus ancien et n'est plus maintenu"],
+    "answer": 1,
+    "explanation": "Le fichier XML embarque dans Factur-X est techniquement base sur la syntaxe CII de l'UN/CEFACT. Factur-X y ajoute une couche PDF/A-3 pour la lisibilite humaine."
+  },
+  {
+    "id": "s4-u2-q08",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "Une entreprise peut choisir librement entre Factur-X, UBL et CII pour ses factures electroniques.",
+    "answer": "vrai",
+    "explanation": "Les trois formats sont autorises par la reforme. Le choix depend des besoins : Factur-X pour la lisibilite humaine, UBL pour Peppol et l'international, CII pour certains secteurs specifiques."
+  },
+  {
+    "id": "s4-u3-q01",
+    "type": "qcm",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Combien de nouvelles mentions obligatoires la reforme ajoute-t-elle sur les factures ?",
+    "options": ["2", "3", "4", "6"],
+    "answer": 2,
+    "explanation": "La reforme introduit 4 nouvelles mentions obligatoires : la categorie d'operation, l'option pour les debits TVA, l'adresse de livraison si differente et le numero SIREN."
+  },
+  {
+    "id": "s4-u3-q02",
+    "type": "qcm",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Parmi ces mentions, laquelle n'est PAS une nouvelle mention obligatoire de la reforme ?",
+    "options": ["Categorie d'operation", "Numero SIREN", "Code APE/NAF", "Adresse de livraison si differente"],
+    "answer": 2,
+    "explanation": "Le code APE/NAF n'est pas une nouvelle mention obligatoire. Les 4 nouvelles mentions sont : categorie d'operation, option debits TVA, adresse de livraison si differente et numero SIREN."
+  },
+  {
+    "id": "s4-u3-q03",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "L'adresse de livraison n'est obligatoire que si elle differe de l'adresse de facturation.",
+    "answer": "vrai",
+    "explanation": "La mention de l'adresse de livraison n'est requise que lorsqu'elle est differente de l'adresse du client (destinataire de la facture). Dans le cas contraire, elle n'est pas necessaire."
+  },
+  {
+    "id": "s4-u3-q04",
+    "type": "fill-blank",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Le numero __________ de l'entreprise emettrice est une nouvelle mention obligatoire sur les factures.",
+    "answer": "SIREN",
+    "explanation": "Le numero SIREN (9 chiffres) identifiant l'entreprise emettrice doit desormais figurer sur les factures. Il s'ajoute au numero de TVA intracommunautaire deja obligatoire."
+  },
+  {
+    "id": "s4-u3-q05",
+    "type": "qcm",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "A quoi sert la mention 'categorie d'operation' sur une facture ?",
+    "options": ["A identifier le secteur d'activite du fournisseur", "A classer l'operation pour le pre-remplissage de la declaration de TVA", "A calculer automatiquement la TVA", "A determiner le delai de paiement applicable"],
+    "answer": 1,
+    "explanation": "La categorie d'operation (livraison de biens, prestation de services, mixte) permet a l'administration de pre-remplir les declarations de TVA en classant correctement chaque transaction."
+  },
+  {
+    "id": "s4-u3-q06",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "La mention 'option pour les debits' concerne toutes les entreprises assujetties a la TVA.",
+    "answer": "faux",
+    "explanation": "L'option pour le paiement de la TVA sur les debits ne concerne que les prestataires de services qui ont choisi cette option. Par defaut, la TVA sur les services est due a l'encaissement."
+  },
+  {
+    "id": "s4-u3-q07",
+    "type": "qcm",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Quelles sont les categories d'operation possibles pour la mention obligatoire ?",
+    "options": ["Achat, Vente, Avoir", "Livraison de biens, Prestation de services, Mixte", "National, Intracommunautaire, Export", "Produit, Service, Investissement"],
+    "answer": 1,
+    "explanation": "Les categories d'operation sont : livraison de biens, prestation de services, ou operation mixte (double). Cette classification est essentielle pour le traitement TVA automatise."
+  },
+  {
+    "id": "s4-u3-q08",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Les 4 nouvelles mentions obligatoires s'appliquent des septembre 2026 a toutes les entreprises assujetties.",
+    "answer": "vrai",
+    "explanation": "Les nouvelles mentions obligatoires entrent en vigueur au 1er septembre 2026 pour toutes les entreprises assujetties a la TVA, independamment de leur taille. Elles s'appliquent meme aux entreprises qui ne sont pas encore tenues d'emettre des factures electroniques."
+  },
+  {
+    "id": "s4-u4-q01",
+    "type": "qcm",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Quel est le premier statut d'une facture electronique apres son emission ?",
+    "options": ["Recue", "Deposee", "Validee", "En cours"],
+    "answer": 1,
+    "explanation": "Une facture electronique recoit le statut 'deposee' lorsqu'elle est transmise par l'emetteur via sa Plateforme Agreee. C'est le point de depart du cycle de vie."
+  },
+  {
+    "id": "s4-u4-q02",
+    "type": "qcm",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Quelle est la difference entre une facture 'rejetee' et une facture 'refusee' ?",
+    "options": ["Il n'y a aucune difference", "Rejetee = erreur technique, Refusee = refus commercial du client", "Rejetee = refus du client, Refusee = erreur technique", "Rejetee = par l'Etat, Refusee = par la PA"],
+    "answer": 1,
+    "explanation": "Une facture rejetee l'est pour des raisons techniques (format invalide, donnees manquantes). Une facture refusee l'est par le destinataire pour des raisons commerciales (erreur de montant, prestation contestee)."
+  },
+  {
+    "id": "s4-u4-q03",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Le statut 'encaissee' indique que le paiement de la facture a ete recu.",
+    "answer": "vrai",
+    "explanation": "Le statut 'encaissee' confirme que le paiement a ete effectue. Ce statut est important pour le suivi des delais de paiement et pour la TVA sur les encaissements."
+  },
+  {
+    "id": "s4-u4-q04",
+    "type": "qcm",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Qui transmet les statuts de cycle de vie des factures entre les parties ?",
+    "options": ["L'emetteur directement au destinataire", "Le portail public de facturation (PPF)", "Les Plateformes Agreees (PA)", "L'administration fiscale"],
+    "answer": 2,
+    "explanation": "Les Plateformes Agreees assurent la transmission des factures et de leurs statuts de cycle de vie entre emetteur et destinataire. Le PPF joue un role de concentrateur et d'annuaire."
+  },
+  {
+    "id": "s4-u4-q05",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Une facture rejetee pour erreur technique doit etre corrigee et reemise avec un nouveau numero.",
+    "answer": "vrai",
+    "explanation": "Lorsqu'une facture est rejetee (erreur technique), elle n'a jamais ete valablement emise. L'emetteur doit la corriger et la redeposer. Comme elle n'a pas d'existence legale, un nouveau numero est attribue."
+  },
+  {
+    "id": "s4-u4-q06",
+    "type": "qcm",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Quel statut est transmis a l'administration fiscale pour le pre-remplissage de la TVA ?",
+    "options": ["Deposee uniquement", "Deposee et encaissee", "Tous les statuts", "Aucun, l'administration n'a pas acces aux statuts"],
+    "answer": 1,
+    "explanation": "L'administration recoit les donnees a l'emission (deposee) pour le chiffre d'affaires, et le statut 'encaissee' pour la TVA sur les encaissements. Ces informations alimentent le pre-remplissage des declarations."
+  },
+  {
+    "id": "s4-u4-q07",
+    "type": "vrai-faux",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "Le destinataire d'une facture dispose d'un delai illimite pour la refuser commercialement.",
+    "answer": "faux",
+    "explanation": "Le destinataire ne dispose pas d'un delai illimite. Passe un certain delai, la facture est consideree comme tacitement acceptee. Ce mecanisme protege le fournisseur contre les refus tardifs."
+  },
+  {
+    "id": "s4-u4-q08",
+    "type": "qcm",
+    "section": 4,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "Que se passe-t-il si le destinataire refuse commercialement une facture ?",
+    "options": ["La facture est automatiquement annulee", "L'emetteur doit emettre un avoir et une nouvelle facture corrigee", "La facture reste valable malgre le refus", "L'administration fiscale arbitre le litige"],
+    "answer": 1,
+    "explanation": "En cas de refus commercial, l'emetteur doit emettre un avoir pour annuler la facture initiale, puis une nouvelle facture corrigee si necessaire. La PA trace l'ensemble de ces echanges."
+  }
+]

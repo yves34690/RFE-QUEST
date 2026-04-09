@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RFE Quest with Pennylane
 
-## Getting Started
+Jeu d'apprentissage gamifie sur la **Reforme de la Facturation Electronique** (RFE), inspire du modele Duolingo.
 
-First, run the development server:
+## Le projet
+
+RFE Quest permet aux collaborateurs de cabinets d'expertise comptable et aux dirigeants de TPE/PME de maitriser la reforme de la facturation electronique par le jeu : sessions courtes (3-5 min), progression gamifiee et feedback pedagogique immediat.
+
+### Fonctionnalites
+
+- **2 parcours** : Expert-Comptable (7 sections) et Dirigeant (6 sections)
+- **218 questions** reparties sur 7 sections thematiques
+- **3 types d'exercices** : QCM, Vrai/Faux, Completer le trou
+- **Systeme de ceintures** (Blanche a Noire 3e Dan) base sur la maitrise par section
+- **XP, coeurs et streaks** pour la motivation
+- **Bouton "Je ne sais pas"** avec affichage de la reponse et explication pedagogique
+- **Revision des erreurs** par section avec recap detaille
+- **Design neo-brutaliste** sur palette Pennylane (teal/orange/noir)
+
+### Sections
+
+| # | Section | Contenu |
+|---|---|---|
+| 1 | Les Fondamentaux | Facture electronique, e-invoicing, e-reporting, archivage a valeur probante |
+| 2 | Calendrier & Obligations | Echeances, entreprises concernees, sanctions |
+| 3 | L'Ecosysteme Technique | PPF, PA, OD, annuaire central |
+| 4 | Formats & Mentions | Factur-X, UBL, CII, mentions obligatoires, cycle de vie |
+| 5 | E-reporting | B2C, international, frequences, simplifications LF 2026 |
+| 6 | Accompagner ses Clients | Segmentation, methode DIGITAL, cartographie (cabinet uniquement) |
+| 7 | Cas Pratiques | Auto-facturation, international, Pennylane, retour Italie |
+
+### Systeme de ceintures
+
+| Ceinture | Seuil | Section |
+|---|---|---|
+| Blanche | Inscription | — |
+| Jaune | >= 80% | Fondamentaux |
+| Orange | >= 80% | Calendrier |
+| Verte | >= 80% | Ecosysteme |
+| Bleue | >= 80% | Formats |
+| Marron | >= 80% | E-reporting |
+| Noire 1er Dan | >= 80% | Accompagnement |
+| Noire 2e Dan | >= 80% | Cas Pratiques |
+| Noire 3e Dan | **100%** | Grand Maitre RFE |
+
+## Stack technique
+
+- **Framework** : Next.js 14+ (App Router, TypeScript)
+- **Styling** : Tailwind CSS (design neo-brutaliste custom)
+- **State** : Zustand avec persistance localStorage
+- **Deploiement** : Vercel
+
+## Demarrage rapide
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/                  # Pages Next.js (App Router)
+components/           # Composants React (UI, exercices, LessonRunner)
+data/questions/       # Banques de questions JSON (sections 1-7)
+lib/                  # Store Zustand, game engine, types, ceintures
+```
 
-## Learn More
+## Licence
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projet prive — Agentique x Pennylane.

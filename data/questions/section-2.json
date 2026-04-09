@@ -1,0 +1,339 @@
+[
+  {
+    "id": "s2-u1-q01",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Seules les grandes entreprises sont concernees par la reforme de la facturation electronique.",
+    "answer": "faux",
+    "explanation": "Toutes les entreprises assujetties a la TVA sont concernees, quelle que soit leur taille : GE, ETI, PME et TPE. Le calendrier d'entree en vigueur varie selon la categorie."
+  },
+  {
+    "id": "s2-u1-q02",
+    "type": "qcm",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "Quelles entreprises sont concernees par l'obligation de facturation electronique ?",
+    "options": ["Uniquement les societes du CAC 40", "Toutes les entreprises assujetties a la TVA", "Seulement les entreprises de plus de 50 salaries", "Uniquement les entreprises soumises a l'IS"],
+    "answer": 1,
+    "explanation": "L'obligation s'applique a toutes les entreprises assujetties a la TVA etablies en France, quel que soit leur regime fiscal ou leur taille."
+  },
+  {
+    "id": "s2-u1-q03",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Un auto-entrepreneur en franchise en base de TVA n'est pas concerne par la reforme.",
+    "answer": "faux",
+    "explanation": "Les auto-entrepreneurs en franchise en base sont assujettis a la TVA meme s'ils n'en facturent pas. Ils sont donc bien concernes par la reforme, notamment pour la reception des factures."
+  },
+  {
+    "id": "s2-u1-q04",
+    "type": "qcm",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Parmi ces entites, laquelle n'est PAS concernee par la reforme de la facturation electronique ?",
+    "options": ["Une PME qui vend des logiciels", "Un auto-entrepreneur en franchise en base", "Une association non assujettie a la TVA", "Une ETI industrielle"],
+    "answer": 2,
+    "explanation": "Seules les entites assujetties a la TVA sont concernees. Une association non assujettie a la TVA n'entre pas dans le perimetre de la reforme."
+  },
+  {
+    "id": "s2-u1-q05",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "La reforme concerne uniquement les transactions B2B domestiques (entre entreprises etablies en France).",
+    "answer": "vrai",
+    "explanation": "L'e-invoicing (facturation electronique obligatoire) concerne les transactions B2B domestiques. Les operations internationales et B2C relevent de l'e-reporting, un dispositif complementaire."
+  },
+  {
+    "id": "s2-u1-q06",
+    "type": "qcm",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 2,
+    "question": "Comment la reforme traite-t-elle les ventes B2C (aux particuliers) ?",
+    "options": ["Elles ne sont pas concernees du tout", "Elles relevent de l'e-invoicing classique", "Elles relevent de l'e-reporting", "Elles sont reportees a 2030"],
+    "answer": 2,
+    "explanation": "Les ventes B2C ne font pas l'objet d'une facture electronique obligatoire mais sont soumises a l'e-reporting : l'entreprise doit transmettre les donnees de transaction a l'administration fiscale."
+  },
+  {
+    "id": "s2-u1-q07",
+    "type": "fill-blank",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 1,
+    "question": "L'obligation de facturation electronique concerne toutes les entreprises assujetties a la ___.",
+    "answer": "TVA",
+    "explanation": "Le critere determinant est l'assujettissement a la TVA, pas la taille de l'entreprise ni son chiffre d'affaires. Meme les entreprises en franchise en base sont assujetties."
+  },
+  {
+    "id": "s2-u1-q08",
+    "type": "qcm",
+    "section": 2,
+    "unite": 1,
+    "difficulty": 3,
+    "question": "Un medecin liberal exerce une activite exoneree de TVA. Est-il concerne par la reforme ?",
+    "options": ["Oui, pour l'emission et la reception", "Oui, mais uniquement pour la reception", "Non, car son activite est exoneree de TVA", "Oui, mais seulement a partir de 2028"],
+    "answer": 1,
+    "explanation": "Un medecin est assujetti a la TVA meme si son activite est exoneree. Il devra donc recevoir ses factures au format electronique, mais ses propres prestations medicales etant exonerees, l'enjeu porte surtout sur la reception."
+  },
+  {
+    "id": "s2-u2-q01",
+    "type": "qcm",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "A quelle date toutes les entreprises devront-elles etre capables de recevoir des factures electroniques ?",
+    "options": ["Janvier 2026", "Septembre 2026", "Janvier 2027", "Septembre 2027"],
+    "answer": 1,
+    "explanation": "A compter du 1er septembre 2026, toutes les entreprises assujetties a la TVA devront etre en mesure de recevoir des factures electroniques, quelle que soit leur taille."
+  },
+  {
+    "id": "s2-u2-q02",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "Les grandes entreprises et ETI doivent emettre des factures electroniques des septembre 2026.",
+    "answer": "vrai",
+    "explanation": "Le calendrier prevoit que les grandes entreprises (GE) et les entreprises de taille intermediaire (ETI) doivent emettre en e-invoicing des le 1er septembre 2026, en meme temps que l'obligation de reception pour tous."
+  },
+  {
+    "id": "s2-u2-q03",
+    "type": "qcm",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "A quelle date les PME et TPE devront-elles emettre des factures electroniques ?",
+    "options": ["Septembre 2026", "Janvier 2027", "Septembre 2027", "Janvier 2028"],
+    "answer": 2,
+    "explanation": "Les PME et TPE (y compris les micro-entreprises) devront emettre des factures electroniques a compter du 1er septembre 2027, soit un an apres les GE et ETI."
+  },
+  {
+    "id": "s2-u2-q04",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Le calendrier de la reforme a ete reporte plusieurs fois avant d'etre fixe aux dates actuelles.",
+    "answer": "vrai",
+    "explanation": "Initialement prevue pour juillet 2024, la reforme a ete reportee. Le calendrier definitif a ete fixe par la loi de finances 2024 : septembre 2026 pour la reception et l'emission GE/ETI, septembre 2027 pour l'emission PME/TPE."
+  },
+  {
+    "id": "s2-u2-q05",
+    "type": "qcm",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "Quel critere determine si une entreprise est classee GE, ETI, PME ou TPE pour le calendrier ?",
+    "options": ["Le chiffre d'affaires uniquement", "Le nombre de salaries uniquement", "Les criteres de la loi LME (CA, effectif, total bilan)", "Le code NAF de l'entreprise"],
+    "answer": 2,
+    "explanation": "La classification repose sur les criteres de la loi de modernisation de l'economie (LME) : chiffre d'affaires, effectif salarie et total du bilan. Ces trois criteres se combinent pour determiner la categorie."
+  },
+  {
+    "id": "s2-u2-q06",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 2,
+    "question": "L'obligation d'e-reporting suit le meme calendrier que l'e-invoicing.",
+    "answer": "vrai",
+    "explanation": "L'e-reporting suit le meme calendrier que l'e-invoicing : septembre 2026 pour les GE/ETI (emission + reception), septembre 2027 pour les PME/TPE. Les deux dispositifs avancent en parallele."
+  },
+  {
+    "id": "s2-u2-q07",
+    "type": "qcm",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 3,
+    "question": "Combien de vagues le calendrier officiel prevoit-il pour le deploiement de l'emission ?",
+    "options": ["Une seule vague pour tous", "Deux vagues (GE/ETI puis PME/TPE)", "Trois vagues (GE, ETI, PME/TPE)", "Quatre vagues (GE, ETI, PME, TPE)"],
+    "answer": 1,
+    "explanation": "Le calendrier prevoit deux vagues d'emission : septembre 2026 pour les GE et ETI ensemble, puis septembre 2027 pour les PME et TPE ensemble. La reception est obligatoire pour tous des septembre 2026."
+  },
+  {
+    "id": "s2-u2-q08",
+    "type": "fill-blank",
+    "section": 2,
+    "unite": 2,
+    "difficulty": 1,
+    "question": "La date cle de la reforme est le 1er septembre ____.",
+    "answer": "2026",
+    "explanation": "Le 1er septembre 2026 est la date pivot : toutes les entreprises doivent pouvoir recevoir des factures electroniques, et les GE/ETI doivent commencer a en emettre."
+  },
+  {
+    "id": "s2-u3-q01",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Une PME n'a rien a faire avant septembre 2027 puisqu'elle n'emet qu'a cette date.",
+    "answer": "faux",
+    "explanation": "Faux ! Des septembre 2026, toutes les entreprises — y compris les PME — doivent etre capables de recevoir des factures electroniques. Il faut donc s'equiper bien avant 2027."
+  },
+  {
+    "id": "s2-u3-q02",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 1,
+    "question": "Envoyer un PDF par email sera toujours conforme apres septembre 2026.",
+    "answer": "faux",
+    "explanation": "Un PDF envoye par email n'est pas une facture electronique au sens de la reforme. Il faut un format structure (Factur-X, UBL, CII) transmis via une Plateforme Agreee."
+  },
+  {
+    "id": "s2-u3-q03",
+    "type": "qcm",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Quel est le piege le plus frequent pour les TPE/PME concernant le calendrier ?",
+    "options": ["Croire que la reforme ne concerne que les GE", "Penser que l'emission et la reception ont la meme echeance", "Ne pas savoir que le PPF existe", "Croire que l'e-reporting est facultatif"],
+    "answer": 1,
+    "explanation": "Beaucoup de PME pensent n'avoir rien a faire avant 2027, car c'est la date d'emission. Mais l'obligation de reception demarre des septembre 2026 pour TOUTES les entreprises, PME et TPE comprises."
+  },
+  {
+    "id": "s2-u3-q04",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Un logiciel de facturation classique suffit pour etre conforme a la reforme.",
+    "answer": "faux",
+    "explanation": "Un logiciel de facturation classique ne genere pas forcement des formats conformes (Factur-X, UBL, CII) et ne se connecte pas aux Plateformes Agreees. Il faudra une mise a jour ou un changement d'outil."
+  },
+  {
+    "id": "s2-u3-q05",
+    "type": "qcm",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "Pourquoi est-il risque d'attendre le dernier moment pour se mettre en conformite ?",
+    "options": ["Parce que les sanctions sont immediates", "Parce que les PA risquent d'etre saturees et les delais d'integration sont longs", "Parce que le format change chaque annee", "Parce que l'administration bloque les comptes bancaires"],
+    "answer": 1,
+    "explanation": "L'integration technique avec une Plateforme Agreee prend du temps (parametrage, tests, formation). Si toutes les entreprises s'y prennent au dernier moment, les PA seront surchargees."
+  },
+  {
+    "id": "s2-u3-q06",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 2,
+    "question": "L'e-reporting ne concerne que les entreprises qui font du B2C.",
+    "answer": "faux",
+    "explanation": "L'e-reporting concerne aussi les transactions internationales (B2B avec des entreprises etrangeres) et les operations avec des non-assujettis. Ce n'est pas limite au B2C."
+  },
+  {
+    "id": "s2-u3-q07",
+    "type": "qcm",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Une entreprise recoit une facture papier d'un fournisseur apres septembre 2026. Que doit-elle faire ?",
+    "options": ["La refuser et demander une facture electronique", "L'accepter car la reception papier reste toujours valable", "La scanner et l'envoyer au PPF", "La signaler a l'administration fiscale"],
+    "answer": 0,
+    "explanation": "Apres septembre 2026, les fournisseurs GE/ETI doivent emettre au format electronique. Si une facture papier arrive alors qu'elle devrait etre electronique, l'entreprise doit demander une facture conforme."
+  },
+  {
+    "id": "s2-u3-q08",
+    "type": "qcm",
+    "section": 2,
+    "unite": 3,
+    "difficulty": 3,
+    "question": "Quel piege guette les cabinets d'expertise comptable ?",
+    "options": ["Ne pas pouvoir facturer leurs clients", "Devoir changer de logiciel comptable", "Ne pas anticiper que TOUS leurs clients (y compris TPE) doivent recevoir des septembre 2026", "Perdre leur agrement fiscal"],
+    "answer": 2,
+    "explanation": "Les cabinets doivent preparer tous leurs clients, y compris les plus petits, a la reception electronique des septembre 2026. Attendre 2027 pour les TPE serait une erreur."
+  },
+  {
+    "id": "s2-u4-q01",
+    "type": "qcm",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Quel est le montant de l'amende par facture non emise au format electronique ?",
+    "options": ["15 EUR", "50 EUR", "150 EUR", "500 EUR"],
+    "answer": 1,
+    "explanation": "L'amende est de 50 EUR par facture non emise au format electronique (LF 2026, art.123). Ce montant peut paraitre faible unitairement mais s'accumule vite pour les entreprises a fort volume, dans la limite de 15 000 EUR par an."
+  },
+  {
+    "id": "s2-u4-q02",
+    "type": "qcm",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Quel est le montant de l'amende par transmission d'e-reporting manquante ?",
+    "options": ["15 EUR", "50 EUR", "150 EUR", "500 EUR"],
+    "answer": 3,
+    "explanation": "Le defaut de transmission des donnees d'e-reporting est sanctionne a hauteur de 500 EUR par transmission manquante (LF 2026, art.123), plafonne a 15 000 EUR par an. C'est plus eleve que la sanction e-invoicing (50 EUR/facture)."
+  },
+  {
+    "id": "s2-u4-q03",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 1,
+    "question": "Les sanctions sont plafonnees par annee civile.",
+    "answer": "vrai",
+    "explanation": "Les sanctions sont plafonnees a 15 000 EUR par annee civile pour l'e-invoicing et a 15 000 EUR par annee civile pour l'e-reporting. Ce plafond protege les entreprises a tres gros volumes."
+  },
+  {
+    "id": "s2-u4-q04",
+    "type": "qcm",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Quel est le plafond annuel des sanctions pour defaut d'e-invoicing ?",
+    "options": ["5 000 EUR", "10 000 EUR", "15 000 EUR", "50 000 EUR"],
+    "answer": 2,
+    "explanation": "Le plafond est de 15 000 EUR par annee civile. Meme si une entreprise emet des milliers de factures non conformes, la sanction totale ne depasse pas ce montant sur une annee."
+  },
+  {
+    "id": "s2-u4-q05",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "L'administration fiscale a prevu une periode de tolerance au demarrage de la reforme.",
+    "answer": "vrai",
+    "explanation": "Une clause de bienveillance est prevue pour les premiers mois de la reforme. L'administration s'est engagee a faire preuve de tolerance pour les entreprises de bonne foi qui rencontrent des difficultes techniques."
+  },
+  {
+    "id": "s2-u4-q06",
+    "type": "qcm",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 2,
+    "question": "Que signifie la 'clause de bienveillance' de l'administration fiscale ?",
+    "options": ["Les sanctions sont supprimees definitivement", "L'administration sera tolerante pendant la periode de demarrage pour les entreprises de bonne foi", "Les entreprises ont un delai supplementaire de 2 ans", "Seules les GE seront sanctionnees"],
+    "answer": 1,
+    "explanation": "La clause de bienveillance signifie que l'administration ne sanctionnera pas immediatement les entreprises qui font des efforts de bonne foi pour se conformer. Ce n'est pas une exoneration permanente."
+  },
+  {
+    "id": "s2-u4-q07",
+    "type": "vrai-faux",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "Une entreprise qui emet 1 000 factures non conformes dans l'annee risque 50 000 EUR d'amende.",
+    "answer": "faux",
+    "explanation": "Le plafond annuel des sanctions est de 15 000 EUR, que ce soit pour l'e-invoicing (50 EUR/facture) ou le e-reporting (500 EUR/transmission). Au-dela de ce plafond, aucune sanction supplementaire n'est appliquee pour l'annee civile en cours."
+  },
+  {
+    "id": "s2-u4-q08",
+    "type": "qcm",
+    "section": 2,
+    "unite": 4,
+    "difficulty": 3,
+    "question": "En cas de cumul des sanctions e-invoicing et e-reporting, quel est le montant maximal theorique sur une annee ?",
+    "options": ["15 000 EUR", "20 000 EUR", "30 000 EUR", "50 000 EUR"],
+    "answer": 2,
+    "explanation": "Chaque obligation a son propre plafond : 15 000 EUR pour l'e-invoicing et 15 000 EUR pour l'e-reporting. En theorie, une entreprise en infraction sur les deux volets risque jusqu'a 30 000 EUR par an."
+  }
+]
