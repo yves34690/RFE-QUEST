@@ -277,9 +277,9 @@
     "unite": 3,
     "difficulty": 2,
     "question": "Combien de cabinets d'expertise comptable Pennylane accompagne-t-il ?",
-    "options": ["500", "1 500", "3 500", "10 000"],
+    "options": ["500", "1 500", "Plus de 3 500", "10 000"],
     "answer": 2,
-    "explanation": "Pennylane accompagne plus de 3 500 cabinets d'expertise comptable et plus de 200 000 dirigeants d'entreprise. C'est la premiere plateforme reunissant logiciel de production pour les EC et outil de gestion financiere pour les clients."
+    "explanation": "Pennylane accompagne plus de 3 500 cabinets d'expertise comptable et plusieurs centaines de milliers de dirigeants d'entreprise. C'est la premiere plateforme reunissant logiciel de production pour les EC et outil de gestion financiere pour les clients."
   },
   {
     "id": "s7-u3-q08",

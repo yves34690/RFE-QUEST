@@ -89,10 +89,10 @@
     "section": 5,
     "unite": 2,
     "difficulty": 1,
-    "question": "Quelle est la frequence de transmission du e-reporting pour une entreprise au regime mensuel de TVA ?",
+    "question": "Quelle est la frequence de transmission du e-reporting pour une entreprise au regime reel normal mensuel ?",
     "options": ["Quotidienne", "Mensuelle", "Trimestrielle", "Annuelle"],
     "answer": 1,
-    "explanation": "Les entreprises au regime reel normal (declarations mensuelles de TVA) transmettent leur e-reporting mensuellement, en coherence avec leur rythme de declaration."
+    "explanation": "Les entreprises au regime reel normal mensuel transmettent en rythme mensuel, en coherence avec leur CA3. Concretement l'arrete prevoit trois transmissions par mois (autour du 20, du 30, et du 10 du mois suivant), mais la periodicite d'ensemble reste mensuelle."
   },
   {
     "id": "s5-u2-q02",
@@ -102,7 +102,7 @@
     "difficulty": 1,
     "question": "Toutes les entreprises transmettent leur e-reporting a la meme frequence.",
     "answer": "faux",
-    "explanation": "La frequence depend du regime de TVA : mensuelle pour le reel normal, bimestrielle pour le reel simplifie, et trimestrielle pour la franchise en base. Chaque regime a sa propre periodicite."
+    "explanation": "La frequence depend du regime de TVA : rythme mensuel pour le reel normal et le reel simplifie, et tous les deux mois pour la franchise en base. Chaque regime a sa propre periodicite."
   },
   {
     "id": "s5-u2-q03",
@@ -110,10 +110,10 @@
     "section": 5,
     "unite": 2,
     "difficulty": 2,
-    "question": "Quelle est la frequence de e-reporting pour une entreprise au regime reel simplifie ?",
+    "question": "Quelle est la frequence de e-reporting pour une entreprise au regime reel simplifie d'imposition (RSI) ?",
     "options": ["Mensuelle", "Bimestrielle", "Trimestrielle", "Semestrielle"],
-    "answer": 1,
-    "explanation": "Les entreprises au regime reel simplifie de TVA transmettent leur e-reporting tous les deux mois (bimestrielle). C'est un rythme intermediaire entre le mensuel et le trimestriel."
+    "answer": 0,
+    "explanation": "Les entreprises au regime reel simplifie transmettent leurs donnees d'e-reporting une fois par mois (entre le 25 et le 30 du mois suivant), meme si leur declaration de TVA elle-meme est annuelle avec acomptes."
   },
   {
     "id": "s5-u2-q04",
@@ -121,10 +121,10 @@
     "section": 5,
     "unite": 2,
     "difficulty": 2,
-    "question": "Quelle est la frequence de e-reporting pour un micro-entrepreneur en franchise de TVA ?",
+    "question": "Quelle est la frequence de e-reporting pour un micro-entrepreneur en franchise en base de TVA ?",
     "options": ["Mensuelle", "Bimestrielle", "Trimestrielle", "Il n'a pas d'obligation de e-reporting"],
-    "answer": 2,
-    "explanation": "Les entreprises en franchise en base de TVA transmettent leur e-reporting trimestriellement. Meme sans TVA a declarer, elles doivent communiquer leurs donnees de transactions B2C et internationales."
+    "answer": 1,
+    "explanation": "Les beneficiaires de la franchise en base transmettent leur e-reporting tous les deux mois (bimestriel), entre le 25 et le 30 du mois suivant la periode. Meme sans TVA a declarer, ils doivent communiquer leurs donnees de transactions B2C et internationales."
   },
   {
     "id": "s5-u2-q05",

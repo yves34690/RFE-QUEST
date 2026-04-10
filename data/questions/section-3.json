@@ -111,9 +111,9 @@
     "unite": 2,
     "difficulty": 2,
     "question": "Combien de Plateformes Agreees sont actuellement immatriculees ?",
-    "options": ["Une vingtaine", "Environ 70", "Environ 141", "Plus de 500"],
+    "options": ["Une vingtaine", "Environ 70", "Plus de 100", "Plus de 500"],
     "answer": 2,
-    "explanation": "Environ 141 PA sont immatriculees a ce jour. Ce nombre important temoigne de la dynamique du marche et offre aux entreprises un large choix de prestataires."
+    "explanation": "Plus de 100 PA sont immatriculees a ce jour (chiffre en evolution). Ce nombre important temoigne de la dynamique du marche et offre aux entreprises un large choix de prestataires. La liste officielle est mise a jour regulierement par la DGFiP."
   },
   {
     "id": "s3-u2-q04",

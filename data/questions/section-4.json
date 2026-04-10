@@ -28,8 +28,8 @@
     "difficulty": 2,
     "question": "Combien de profils Factur-X existent ?",
     "options": ["3", "5", "6", "8"],
-    "answer": 2,
-    "explanation": "Factur-X definit 6 profils de richesse croissante : Minimum, Basic WL, Basic, EN 16931 (Comfort), Extended et XRechnung. Plus le profil est eleve, plus le XML contient d'informations."
+    "answer": 1,
+    "explanation": "Factur-X definit 5 profils de richesse croissante : Minimum, Basic WL, Basic, EN 16931 (Comfort) et Extended. Plus le profil est eleve, plus le XML contient d'informations. XRechnung est un standard allemand distinct, pas un profil Factur-X."
   },
   {
     "id": "s4-u1-q04",
@@ -205,9 +205,9 @@
     "section": 4,
     "unite": 3,
     "difficulty": 1,
-    "question": "Le numero __________ de l'entreprise emettrice est une nouvelle mention obligatoire sur les factures.",
+    "question": "Le numero __________ du client est une nouvelle mention obligatoire sur les factures entre assujettis etablis en France.",
     "answer": "SIREN",
-    "explanation": "Le numero SIREN (9 chiffres) identifiant l'entreprise emettrice doit desormais figurer sur les factures. Il s'ajoute au numero de TVA intracommunautaire deja obligatoire."
+    "explanation": "Le SIREN de l'emetteur etait deja obligatoire. La reforme ajoute le SIREN du client (9 chiffres) des lors que la transaction a lieu entre professionnels etablis en France. Ce numero sert d'identifiant pivot pour le routage via l'annuaire du PPF."
   },
   {
     "id": "s4-u3-q05",
