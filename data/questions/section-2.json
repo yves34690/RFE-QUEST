@@ -231,14 +231,13 @@
   },
   {
     "id": "s2-u3-q07",
-    "type": "qcm",
+    "type": "vrai-faux",
     "section": 2,
     "unite": 3,
     "difficulty": 3,
-    "question": "Une entreprise recoit une facture papier d'un fournisseur apres septembre 2026. Que doit-elle faire ?",
-    "options": ["La refuser et demander une facture electronique", "L'accepter car la reception papier reste toujours valable", "La scanner et l'envoyer au PPF", "La signaler a l'administration fiscale"],
-    "answer": 0,
-    "explanation": "Apres septembre 2026, les fournisseurs GE/ETI doivent emettre au format electronique. Si une facture papier arrive alors qu'elle devrait etre electronique, l'entreprise doit demander une facture conforme."
+    "question": "Apres le 1er septembre 2026, toute facture recue au format papier d'un fournisseur francais doit etre refusee.",
+    "answer": "faux",
+    "explanation": "Les PME, TPE et micro-entreprises ne sont tenues d'emettre en electronique qu'a partir du 1er septembre 2027. Entre sept 2026 et aout 2027, recevoir une facture papier d'un fournisseur PME/TPE reste parfaitement legal. De plus, les tickets de caisse et justificatifs de notes de frais (restaurant, carburant, parking, hotel) restent hors perimetre e-invoicing : ce sont des transactions B2C au depart, rapportees par les collaborateurs, sans obligation de format structure."
   },
   {
     "id": "s2-u3-q08",

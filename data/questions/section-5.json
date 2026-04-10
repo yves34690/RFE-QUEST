@@ -58,9 +58,9 @@
     "section": 5,
     "unite": 1,
     "difficulty": 2,
-    "question": "Une entreprise francaise qui vend uniquement a des professionnels francais n'a pas d'obligation de e-reporting.",
-    "answer": "vrai",
-    "explanation": "Si toutes les ventes sont du B2B domestique, elles sont couvertes par la facturation electronique. Le e-reporting ne s'applique qu'aux transactions hors champ de la facturation electronique (B2C, international)."
+    "question": "Une entreprise dont toutes les ventes sont en B2B domestique est automatiquement dispensee de toute obligation d'e-reporting.",
+    "answer": "faux",
+    "explanation": "Les ventes 100% B2B domestiques relevent bien de l'e-invoicing et non du e-reporting. Mais l'obligation de e-reporting s'apprecie aussi cote achats : des lors que l'entreprise acquiert des services aupres d'un prestataire non etabli en France (TVA auto-liquidee — SaaS etrangers, abonnements internationaux, prestations intra-UE, etc.), ces achats declenchent une obligation d'e-reporting cote acheteur, independamment de la structure des ventes. En pratique, peu d'entreprises sont totalement hors scope e-reporting."
   },
   {
     "id": "s5-u1-q07",

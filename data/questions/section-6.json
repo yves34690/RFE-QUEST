@@ -5,10 +5,10 @@
     "section": 6,
     "unite": 1,
     "difficulty": 1,
-    "question": "Quel est le premier critere pour segmenter le portefeuille clients d'un cabinet ?",
-    "options": ["Le chiffre d'affaires du client", "La nature des flux : B2B, B2C, B2G, international", "La taille du cabinet", "Le logiciel utilise par le client"],
+    "question": "Quelle information sur un client permet d'identifier directement le type d'obligation RFE qui s'applique (e-invoicing, e-reporting, Chorus Pro) ?",
+    "options": ["Le chiffre d'affaires du client", "La nature de ses flux : B2B domestique, B2C, B2G, international", "La taille du cabinet qui le gere", "Le logiciel comptable utilise par le client"],
     "answer": 1,
-    "explanation": "La nature des flux determine les obligations : B2B domestique = facturation electronique, B2C et international = e-reporting, B2G = deja sur Chorus Pro. C'est le point de depart de toute segmentation."
+    "explanation": "La nature des flux determine directement les obligations : B2B domestique a e-invoicing, B2C et international a e-reporting, B2G a Chorus Pro. Les autres criteres (volume, maturite) interviennent ensuite pour dimensionner l'accompagnement."
   },
   {
     "id": "s6-u1-q02",
@@ -54,14 +54,13 @@
   },
   {
     "id": "s6-u1-q06",
-    "type": "qcm",
+    "type": "vrai-faux",
     "section": 6,
     "unite": 1,
     "difficulty": 2,
-    "question": "Quel type de client doit etre traite en priorite dans la preparation a la reforme ?",
-    "options": ["Les grandes entreprises deja equipees", "Les clients avec un fort volume de factures et une faible maturite numerique", "Les clients en franchise en base de TVA", "Les clients qui font uniquement du B2G"],
-    "answer": 1,
-    "explanation": "Les clients a fort volume et faible maturite numerique presentent le plus grand risque de non-conformite. Ils necessitent un accompagnement approfondi et un delai de mise en oeuvre plus long."
+    "question": "Un client a fort volume de factures et a faible maturite numerique presente un risque eleve de non-conformite a la reforme.",
+    "answer": "vrai",
+    "explanation": "Ce profil combine un impact eleve (volume de factures a traiter correctement) et une probabilite elevee (outils inadaptes, equipes non formees). Pour ces clients, un cabinet gagne a demarrer le chantier tot, avec un accompagnement approfondi."
   },
   {
     "id": "s6-u1-q07",
@@ -69,9 +68,9 @@
     "section": 6,
     "unite": 1,
     "difficulty": 3,
-    "question": "Le regime de TVA du client influence uniquement la frequence du e-reporting, pas ses obligations de facturation electronique.",
+    "question": "L'obligation d'emission de factures electroniques s'applique a toutes les entreprises assujetties a la TVA, quel que soit leur regime (reel normal, simplifie, franchise en base).",
     "answer": "vrai",
-    "explanation": "Le regime de TVA (reel normal, simplifie, franchise) determine la periodicite du e-reporting (mensuel, bimestriel, trimestriel). En revanche, l'obligation de facturation electronique est la meme pour tous les assujettis."
+    "explanation": "Le critere est l'assujettissement a la TVA, pas le regime d'imposition. Le regime TVA determine en revanche la periodicite de transmission du e-reporting (rythme mensuel pour RN et RSI, bimestriel pour la franchise en base) et peut introduire des specificites de contenu pour certains cas particuliers (regime de la marge, auto-liquidation)."
   },
   {
     "id": "s6-u1-q08",
@@ -227,10 +226,10 @@
     "section": 6,
     "unite": 3,
     "difficulty": 2,
-    "question": "Quel format actuel des factures du client est le plus important a identifier lors de la cartographie ?",
-    "options": ["Le format des factures archivees", "Le format d'emission et de reception actuel (papier, PDF, EDI, Factur-X...)", "Le format des relances", "Le format des devis"],
+    "question": "Quelle information doit figurer dans la cartographie des flux de facturation d'un client en vue de la reforme ?",
+    "options": ["Le format des factures archivees uniquement", "Le format d'emission et de reception actuel (papier, PDF email, EDI, Factur-X...)", "Le format des relances clients", "Le format des devis"],
     "answer": 1,
-    "explanation": "Connaitre le format actuel (papier, PDF email, EDI, portail) permet de mesurer l'ecart avec les exigences de la reforme et d'estimer la charge de migration vers un format structure."
+    "explanation": "Identifier le format actuel (papier, PDF email, EDI, portail) permet de mesurer l'ecart avec les formats cibles (Factur-X, UBL, CII) et d'estimer la charge de migration. C'est une donnee structurante pour le plan de mise en conformite."
   },
   {
     "id": "s6-u3-q07",
@@ -280,10 +279,10 @@
     "section": 6,
     "unite": 4,
     "difficulty": 2,
-    "question": "Quel est l'avantage principal d'un outil de gestion complet par rapport a un simple OD ?",
-    "options": ["Il est toujours moins cher", "Il integre facturation, comptabilite et conformite dans un seul environnement", "Il permet d'eviter le e-reporting", "Il est obligatoire pour les grandes entreprises"],
+    "question": "Qu'apporte fonctionnellement un outil de gestion complet qu'un OD seul ne fournit pas ?",
+    "options": ["Un tarif systematiquement moins eleve", "L'integration facturation + comptabilite + conformite RFE dans un meme environnement", "Une exemption d'e-reporting", "Une obligation de passage pour les grandes entreprises"],
     "answer": 1,
-    "explanation": "Un outil complet comme Pennylane integre la facturation, la comptabilite et la conformite RFE. Cela evite les ruptures de flux et la multiplication des outils, tout en fluidifiant la collaboration cabinet-client."
+    "explanation": "Un OD sert de pont vers une PA mais ne couvre pas la comptabilite. Un outil de gestion complet (type Pennylane) integre les trois couches, evitant les ruptures de flux entre plusieurs logiciels et fluidifiant la collaboration cabinet-client."
   },
   {
     "id": "s6-u4-q04",

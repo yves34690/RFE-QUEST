@@ -15,10 +15,10 @@
     "section": 4,
     "unite": 1,
     "difficulty": 1,
-    "question": "Quel est l'avantage principal du format Factur-X par rapport a un PDF classique ?",
-    "options": ["Il est plus leger en taille", "Il ne necessite pas d'OCR pour extraire les donnees", "Il est compatible avec Word", "Il peut contenir des images animees"],
+    "question": "Quelle propriete technique de Factur-X permet d'extraire les donnees sans passer par un OCR ?",
+    "options": ["Le fichier est plus leger en taille", "Les donnees sont structurees dans un XML embarque, directement exploitables par un logiciel", "Il utilise le format Word en interne", "Le PDF integre des metadonnees compressees en ZIP"],
     "answer": 1,
-    "explanation": "Grace au XML embarque, les donnees de la facture sont directement exploitables par les logiciels sans recourir a l'OCR (reconnaissance optique de caracteres)."
+    "explanation": "Le XML embarque dans le PDF/A-3 contient toutes les donnees de facturation de maniere structuree. Un logiciel peut les lire et les integrer sans passer par une reconnaissance optique de caracteres, contrairement a un PDF image."
   },
   {
     "id": "s4-u1-q03",
@@ -152,10 +152,10 @@
     "section": 4,
     "unite": 2,
     "difficulty": 3,
-    "question": "Quelle est la difference principale entre Factur-X et CII au niveau technique ?",
-    "options": ["Factur-X utilise JSON, CII utilise XML", "Le XML embarque dans Factur-X est base sur CII, mais Factur-X ajoute un PDF", "CII est un format proprietary, Factur-X est open source", "CII est plus ancien et n'est plus maintenu"],
+    "question": "Qu'apporte Factur-X par rapport a UBL ou CII pour la personne qui recoit la facture ?",
+    "options": ["Une signature electronique obligatoire", "La possibilite de visualiser directement la facture sans logiciel specialise (grace au PDF integre)", "Une compatibilite automatique avec Peppol", "Un fichier plus leger"],
     "answer": 1,
-    "explanation": "Le fichier XML embarque dans Factur-X est techniquement base sur la syntaxe CII de l'UN/CEFACT. Factur-X y ajoute une couche PDF/A-3 pour la lisibilite humaine."
+    "explanation": "Factur-X contient un PDF lisible par n'importe qui (comme un PDF classique), en plus du XML structure. UBL et CII sont des XML purs : il faut un outil specialise pour les visualiser. C'est le gros avantage pour les TPE/PME qui veulent garder une lecture humaine simple."
   },
   {
     "id": "s4-u2-q08",

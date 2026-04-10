@@ -318,15 +318,15 @@
     "section": 7,
     "unite": 4,
     "difficulty": 2,
-    "question": "D'apres le retour d'experience italien, quel est l'impact le plus visible pour les cabinets comptables ?",
+    "question": "Quelle evolution des missions des cabinets comptables italiens est documentee suite au passage a la facturation electronique obligatoire B2B ?",
     "options": [
       "La disparition totale de leur activite",
-      "Un recentrage sur le conseil et le controle de gestion",
-      "Une baisse de leurs honoraires",
-      "L'obligation de changer de logiciel"
+      "Un recentrage sur les missions de conseil et de controle de gestion",
+      "Une baisse generalisee de leurs honoraires",
+      "Une obligation de changer de logiciel tous les deux ans"
     ],
     "answer": 1,
-    "explanation": "En Italie, les cabinets se sont recentres sur des missions de conseil a plus forte valeur ajoutee (controle de gestion, accompagnement strategique). La concurrence sur la tenue simple s'est accrue mais les missions de conseil ont explose."
+    "explanation": "D'apres les retours documentes (Luca Pulli, RSM Italie), l'automatisation d'une partie de la tenue a libere du temps pour des missions de conseil et de controle de gestion a plus forte valeur ajoutee. Les cabinets se sont recentres plutot que de perdre en activite."
   },
   {
     "id": "s7-u4-q04",

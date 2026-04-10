@@ -89,10 +89,10 @@
     "section": 3,
     "unite": 2,
     "difficulty": 1,
-    "question": "Quel est le role principal d'une Plateforme Agreee (PA) ?",
-    "options": ["Remplacer l'expert-comptable", "Emettre et recevoir les factures electroniques pour le compte des entreprises", "Controler la conformite fiscale des entreprises", "Archiver les factures pendant 10 ans"],
+    "question": "Quelle fonction officielle une Plateforme Agreee assure-t-elle dans le dispositif de facturation electronique ?",
+    "options": ["Remplacer l'expert-comptable", "Emettre, recevoir les factures electroniques et transmettre les donnees au PPF", "Controler la conformite fiscale des entreprises", "Archiver obligatoirement les factures pendant 10 ans"],
     "answer": 1,
-    "explanation": "Les PA sont les intermediaires techniques qui permettent aux entreprises d'emettre et de recevoir leurs factures electroniques conformes, et de transmettre les donnees au PPF."
+    "explanation": "Les PA sont les intermediaires techniques habilites par la DGFiP. Elles emettent et recoivent les factures pour le compte des entreprises, et transmettent les donnees au PPF dans son role de concentrateur fiscal."
   },
   {
     "id": "s3-u2-q02",
@@ -173,10 +173,10 @@
     "section": 3,
     "unite": 3,
     "difficulty": 1,
-    "question": "Quelle est la principale difference entre une PA et un OD (Operateur de Dematerialisation) ?",
-    "options": ["L'OD est gratuit, la PA est payante", "La PA est immatriculee et peut emettre/recevoir directement, l'OD doit passer par une PA", "L'OD est reserve aux grandes entreprises", "Il n'y a aucune difference"],
+    "question": "Laquelle de ces affirmations distingue correctement une PA d'un OD (Operateur de Dematerialisation) ?",
+    "options": ["L'OD est gratuit, la PA est payante", "Seule la PA est immatriculee par la DGFiP et peut transmettre directement dans le reseau officiel, l'OD doit passer par une PA", "L'OD est reserve aux grandes entreprises", "Il n'y a aucune difference"],
     "answer": 1,
-    "explanation": "La PA est immatriculee par la DGFiP et peut emettre/recevoir des factures directement dans le reseau. L'OD n'est pas immatricule et doit obligatoirement passer par une PA pour acceder au reseau."
+    "explanation": "L'immatriculation par la DGFiP est le critere juridique qui separe les deux roles. Sans immatriculation, un OD reste un prestataire technique qui doit s'appuyer sur une PA pour acceder au reseau."
   },
   {
     "id": "s3-u3-q02",
@@ -341,10 +341,10 @@
     "section": 3,
     "unite": 5,
     "difficulty": 1,
-    "question": "Quel est le premier critere a verifier lors du choix d'une PA ?",
-    "options": ["Le prix", "L'immatriculation officielle par la DGFiP", "Le nombre de clients", "La taille de l'entreprise editrice"],
+    "question": "Quelle condition legale une solution doit-elle remplir pour operer officiellement comme Plateforme Agreee ?",
+    "options": ["Proposer le prix le plus bas du marche", "Etre immatriculee par la DGFiP (liste publique sur impots.gouv.fr)", "Avoir au moins 100 clients actifs", "Etre editee par une entreprise de plus de 50 salaries"],
     "answer": 1,
-    "explanation": "Le critere numero 1 est de verifier que la PA est bien immatriculee par la DGFiP. Sans immatriculation, le prestataire ne peut pas legalement emettre ou recevoir des factures dans le reseau officiel."
+    "explanation": "L'immatriculation par la DGFiP est la condition legale pour operer comme PA. La liste officielle est publique sur impots.gouv.fr. Les autres criteres (fonctionnalites, securite, prix, simplicite) interviennent ensuite dans le choix parmi les PA deja immatriculees."
   },
   {
     "id": "s3-u5-q02",
