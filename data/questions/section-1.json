@@ -156,15 +156,15 @@
     "section": 1,
     "unite": 2,
     "difficulty": 1,
-    "question": "Une entreprise francaise qui vend des produits a l'export est concernee par...",
+    "question": "Une entreprise francaise qui ne fait que de l'export est-elle concernee par la reforme ?",
     "options": [
-      "L'e-invoicing uniquement",
-      "Le e-reporting uniquement",
-      "Les deux",
-      "Aucun des deux"
+      "Non, elle est totalement hors scope",
+      "Oui, pour le e-reporting de ses ventes uniquement",
+      "Oui, pour le e-reporting de ses ventes ET la reception de factures electroniques de ses fournisseurs francais via une PA",
+      "Oui, pour l'e-invoicing uniquement"
     ],
-    "answer": 1,
-    "explanation": "Les ventes a l'export (hors France) ne sont pas du B2B domestique, donc elles ne relevent pas de l'e-invoicing. En revanche, l'entreprise devra transmettre les donnees de ces transactions via le e-reporting."
+    "answer": 2,
+    "explanation": "C'est un piege classique. L'entreprise ne fait pas de B2B domestique cote ventes, donc pas d'e-invoicing a l'emission. Mais elle doit quand meme : 1) faire du e-reporting pour ses ventes a l'export et ses livraisons intra-UE, 2) recevoir ses factures fournisseurs francais au format electronique via une PA des le 1er septembre 2026 (loyer, expert-comptable, fournitures, SaaS francais...), 3) faire du e-reporting cote achats pour ses prestations de services aupres de non-etablis (SaaS etrangers, abonnements internationaux, prestations intra-UE)."
   },
   {
     "id": "s1-u3-q01",
