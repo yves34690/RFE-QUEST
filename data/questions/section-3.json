@@ -288,10 +288,10 @@
     "section": 3,
     "unite": 4,
     "difficulty": 2,
-    "question": "Combien d'entites sont deja pre-inscrites dans l'annuaire central ?",
-    "options": ["Environ 100 000", "Environ 300 000", "Plus de 600 000", "Plus de 5 millions"],
-    "answer": 2,
-    "explanation": "Plus de 600 000 entites sont deja referencees dans l'annuaire central. Ce chiffre augmentera a mesure que les entreprises renseigneront leur PA de reception."
+    "question": "Combien d'entreprises assujetties a la TVA sont pre-inscrites automatiquement dans l'annuaire central ?",
+    "options": ["Environ 100 000", "Environ 600 000", "Environ 2 millions", "Environ 4,5 millions"],
+    "answer": 3,
+    "explanation": "Les 4,5 millions d'entreprises assujetties a la TVA en France sont pre-inscrites automatiquement dans l'annuaire PPF a partir de leur numero SIREN (donnees du repertoire SIRENE de l'INSEE). L'entreprise n'a rien a faire pour cette pre-inscription ; elle doit ensuite choisir une Plateforme Agreee qui se declarera comme point de reception."
   },
   {
     "id": "s3-u4-q05",
@@ -299,9 +299,9 @@
     "section": 3,
     "unite": 4,
     "difficulty": 2,
-    "question": "Une entreprise peut changer de PA de reception a tout moment en mettant a jour son code de routage dans l'annuaire.",
+    "question": "Une entreprise peut changer de Plateforme Agreee de reception a tout moment.",
     "answer": "vrai",
-    "explanation": "L'entreprise peut modifier son code de routage dans l'annuaire pour changer de PA de reception. Cela permet une concurrence saine entre les PA et une liberte de choix pour les entreprises."
+    "explanation": "L'entreprise peut resilier son contrat avec une PA et en choisir une autre. La nouvelle PA prend alors en charge la mise a jour de l'annuaire PPF pour se declarer comme nouveau point de reception du SIREN, via API. L'entreprise ne manipule jamais directement l'annuaire ni le code de routage : elle pilote son changement via ses contrats avec les PA. Ce mecanisme assure une concurrence saine et une liberte de choix."
   },
   {
     "id": "s3-u4-q06",
@@ -309,10 +309,10 @@
     "section": 3,
     "unite": 4,
     "difficulty": 2,
-    "question": "Que se passe-t-il si une entreprise n'a pas renseigne son code de routage dans l'annuaire ?",
-    "options": ["Ses factures sont refusees par le reseau", "Ses factures sont mises en attente au niveau du PPF", "Elle ne pourra pas recevoir de factures electroniques correctement", "Rien, c'est facultatif"],
+    "question": "Si une entreprise n'a designe aucune Plateforme Agreee, que se passe-t-il lorsqu'un fournisseur tente de lui envoyer une facture electronique ?",
+    "options": ["Ses factures sont automatiquement refusees par le reseau", "Ses factures sont mises en attente au niveau du PPF", "Les factures ne peuvent pas etre routees vers une PA de reception, et le fournisseur doit trouver un autre canal", "Rien, c'est facultatif"],
     "answer": 2,
-    "explanation": "Sans code de routage, l'emetteur ne sait pas vers quelle PA envoyer la facture. L'entreprise risque de ne pas recevoir ses factures electroniques, ce qui peut poser des problemes operationnels."
+    "explanation": "Les 4,5 millions d'entreprises assujetties a la TVA sont pre-inscrites dans l'annuaire a partir du repertoire SIRENE. Mais tant qu'elles n'ont pas designe une PA, l'annuaire n'a pas de point de reception associe a leur SIREN : les fournisseurs ne savent pas ou envoyer la facture electronique. L'entreprise doit donc choisir une PA et signer avec elle ; c'est ensuite la PA qui declare son propre code de routage dans l'annuaire via API. L'entreprise ne manipule jamais ce code elle-meme."
   },
   {
     "id": "s3-u4-q07",
@@ -330,10 +330,10 @@
     "section": 3,
     "unite": 4,
     "difficulty": 3,
-    "question": "Peut-on renseigner des codes de routage differents pour chaque etablissement (SIRET) d'une meme entreprise ?",
-    "options": ["Non, un seul code par SIREN", "Oui, chaque SIRET peut avoir sa propre PA", "Seulement pour les entreprises de plus de 250 salaries", "Seulement avec une derogation de la DGFiP"],
+    "question": "Une entreprise multi-etablissements peut-elle designer des Plateformes Agreees differentes selon ses SIRET ?",
+    "options": ["Non, une seule PA par SIREN obligatoirement", "Oui, l'annuaire accepte une granularite par SIRET et chaque etablissement peut utiliser sa propre PA", "Seulement pour les entreprises de plus de 250 salaries", "Seulement avec une derogation de la DGFiP"],
     "answer": 1,
-    "explanation": "L'annuaire permet une granularite au niveau SIRET. Une entreprise multi-etablissements peut donc diriger les factures de chaque site vers une PA differente, adaptee a son organisation."
+    "explanation": "L'annuaire PPF permet une granularite au niveau SIRET. Une entreprise multi-etablissements peut donc designer une PA differente par etablissement : chaque PA declarera alors son code de routage associe au SIRET concerne. C'est utile pour les groupes avec des organisations heterogenes, differents metiers ou outils de facturation distincts selon les sites."
   },
   {
     "id": "s3-u5-q01",
