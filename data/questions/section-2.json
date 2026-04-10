@@ -48,8 +48,8 @@
     "unite": 1,
     "difficulty": 1,
     "question": "La reforme concerne uniquement les transactions B2B domestiques (entre entreprises etablies en France).",
-    "answer": "vrai",
-    "explanation": "L'e-invoicing (facturation electronique obligatoire) concerne les transactions B2B domestiques. Les operations internationales et B2C relevent de l'e-reporting, un dispositif complementaire."
+    "answer": "faux",
+    "explanation": "Faux : la reforme comporte deux volets. L'e-invoicing couvre les transactions B2B domestiques entre assujettis a la TVA (y compris en franchise en base, comme les auto-entrepreneurs). L'e-reporting, complementaire, couvre les operations B2C et les transactions internationales."
   },
   {
     "id": "s2-u1-q06",
