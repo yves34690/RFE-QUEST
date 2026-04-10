@@ -120,9 +120,9 @@
     "section": 4,
     "unite": 2,
     "difficulty": 2,
-    "question": "Le format CII a ete developpe par l'OASIS, la meme organisation que UBL.",
-    "answer": "faux",
-    "explanation": "CII (Cross-Industry Invoice) a ete developpe par l'UN/CEFACT, une agence des Nations Unies. UBL (Universal Business Language) a ete developpe par l'OASIS. Ce sont deux organisations distinctes."
+    "question": "Un cabinet qui traite les factures entrantes de ses clients doit etre capable de lire les trois formats Factur-X, UBL et CII.",
+    "answer": "vrai",
+    "explanation": "Les fournisseurs de chaque client peuvent choisir librement parmi les trois formats autorises par la reforme. Un cabinet (ou l'outil de gestion comme Pennylane) doit donc supporter les trois en reception, sinon certaines factures ne pourront pas etre integrees. En pratique, Factur-X reste dominant pour les TPE/PME francaises, UBL est frequent via le reseau Peppol (echanges europeens), et CII reste plus rare mais possible."
   },
   {
     "id": "s4-u2-q05",
