@@ -14,7 +14,12 @@ export default function FillBlank({ question, onAnswer, onSkip }: FillBlankProps
   const [revealed, setRevealed] = useState(false);
   const [skipped, setSkipped] = useState(false);
   const normalize = (s: string) =>
-    s.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    s
+      .toLowerCase()
+      .trim()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[es]+$/, "");
   const correctAnswer = normalize(String(question.answer));
 
   function handleValidate() {
