@@ -64,14 +64,13 @@
   },
   {
     "id": "s4-u1-q07",
-    "type": "qcm",
+    "type": "vrai-faux",
     "section": 4,
     "unite": 1,
     "difficulty": 3,
-    "question": "Quel profil Factur-X est recommande pour les TPE qui veulent le minimum de donnees structurees ?",
-    "options": ["Minimum", "Basic WL", "EN 16931 (Comfort)", "Extended"],
-    "answer": 0,
-    "explanation": "Le profil Minimum contient uniquement les donnees essentielles (identifiants, montants, dates). Il convient aux petites structures qui souhaitent emettre des Factur-X sans renseigner un grand nombre de champs."
+    "question": "Le profil MINIMUM de Factur-X est suffisant pour emettre une facture conforme a la reforme francaise.",
+    "answer": "faux",
+    "explanation": "Le profil MINIMUM ne contient que les donnees d'en-tete et de pied de facture (identification, montants, dates), sans le detail des lignes. Or la norme europeenne EN 16931, qui encadre la reforme francaise, exige le detail ligne par ligne. Le profil minimal reellement conforme est EN 16931 (Comfort). Le profil BASIC sera tolere au demarrage de la reforme mais n'est pas une cible durable. Une TPE qui emet en MINIMUM risque de voir ses factures rejetees ou non conformes."
   },
   {
     "id": "s4-u1-q08",
