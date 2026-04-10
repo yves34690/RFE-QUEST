@@ -5,10 +5,10 @@
     "section": 6,
     "unite": 1,
     "difficulty": 1,
-    "question": "Quelle information sur un client permet d'identifier directement le type d'obligation RFE qui s'applique (e-invoicing, e-reporting, Chorus Pro) ?",
-    "options": ["Le chiffre d'affaires du client", "La nature de ses flux : B2B domestique, B2C, B2G, international", "La taille du cabinet qui le gere", "Le logiciel comptable utilise par le client"],
+    "question": "Selon la fiche de segmentation Pennylane, quels sont les axes qui permettent de classer un client face a la reforme ?",
+    "options": ["Le chiffre d'affaires et le nombre de salaries", "La maturite digitale, l'activite (B2B/B2C) et le volume, l'assujettissement TVA, et la comptabilite internalisee ou non", "L'anciennete du client et sa satisfaction declaree", "Le code NAF et la forme juridique"],
     "answer": 1,
-    "explanation": "La nature des flux determine directement les obligations : B2B domestique a e-invoicing, B2C et international a e-reporting, B2G a Chorus Pro. Les autres criteres (volume, maturite) interviennent ensuite pour dimensionner l'accompagnement."
+    "explanation": "La fiche de segmentation Pennylane combine 4 axes : maturite digitale (quel outil le client utilise : Pennylane, autre logiciel, manuel Word/Excel, ERP), activite et volume (B2B/B2C, moins de 50, 50 a 200 ou plus de 200 factures par mois), assujettissement a la TVA, et comptabilite internalisee ou geree par le cabinet. Ces 4 axes debouchent sur 4 niveaux de priorite (haute facile, haute accompagnement, moyenne, faible)."
   },
   {
     "id": "s6-u1-q02",
@@ -18,7 +18,7 @@
     "difficulty": 1,
     "question": "Un client en franchise en base de TVA n'est pas concerne par la reforme.",
     "answer": "faux",
-    "explanation": "Toute entreprise assujettie a la TVA est concernee, y compris celles en franchise en base. Elles devront recevoir des factures electroniques et transmettre du e-reporting pour leurs ventes B2C."
+    "explanation": "Un client en franchise en base reste assujetti a la TVA et doit donc pouvoir recevoir des factures electroniques des sept 2026, puis en emettre a partir de sept 2027. Il peut aussi devoir faire du e-reporting pour ses ventes B2C et certains achats aupres de non-etablis. La fiche de segmentation Pennylane le classe en 'PRIORITÉ FAIBLE' (impact limite) mais pas hors scope."
   },
   {
     "id": "s6-u1-q03",
@@ -48,9 +48,9 @@
     "section": 6,
     "unite": 1,
     "difficulty": 2,
-    "question": "Les clients qui facturent deja le secteur public via Chorus Pro sont les mieux prepares a la reforme.",
-    "answer": "vrai",
-    "explanation": "Les entreprises utilisant Chorus Pro (B2G) ont deja l'experience de la facturation electronique structuree. Elles sont generalement plus avancees dans leur maturite numerique et leur conformite."
+    "question": "Un client qui facture deja le secteur public via Chorus Pro est automatiquement mieux prepare a la reforme.",
+    "answer": "faux",
+    "explanation": "Chorus Pro accepte plusieurs modes d'envoi, dont le simple depot de PDF. Beaucoup de TPE/PME se contentent de deposer des PDF sur le portail, ce qui ne les prepare en rien a la reforme : un PDF simple n'est pas une facture electronique au sens de la RFE. Ces clients peuvent meme etre les plus fragiles, car ils ont un faux sentiment de securite ('je fais deja de l'electronique') alors qu'ils devront basculer vers une PA et un format structure. Seuls les clients qui envoient deja en UBL ou Factur-X structure via Chorus Pro ont un vrai acquis a capitaliser."
   },
   {
     "id": "s6-u1-q06",
@@ -121,9 +121,9 @@
     "section": 6,
     "unite": 2,
     "difficulty": 2,
-    "question": "L'etape 'Inventaire des donnees' consiste a verifier que toutes les mentions obligatoires sont presentes dans les systemes du client.",
+    "question": "L'etape 'Inventaire des donnees' consiste a recenser et verifier toutes les donnees du client qui alimenteront les factures electroniques.",
     "answer": "vrai",
-    "explanation": "L'Inventaire des donnees permet de verifier que les donnees requises (SIREN, categorie d'operation, adresse de livraison...) sont bien presentes et correctement renseignees dans les outils du client."
+    "explanation": "L'Inventaire des donnees est la 4e etape de la methode DIGITAL (mois 4), apres la cartographie. Il consiste a recenser toutes les donnees qui alimenteront les factures : referentiels clients et fournisseurs (avec SIREN du client, nouvelle mention obligatoire), bases articles, donnees TVA, modes de paiement. On verifie aussi qu'elles sont bien presentes, a jour et au bon format dans les outils du client."
   },
   {
     "id": "s6-u2-q05",
@@ -165,7 +165,7 @@
     "difficulty": 2,
     "question": "Dans la methode DIGITAL, le G correspond a la cartographie des flux, aussi appelee Graphe des __________.",
     "answer": "flux",
-    "explanation": "Le G de DIGITAL correspond au Graphe des flux : cartographier les flux entrants et sortants du client (B2B, B2C, B2G, international) pour identifier toutes les obligations."
+    "explanation": "Le mot DIGITAL sert de mnemonique aux 7 etapes : D-Diagnostic, I-Inspection TVA, G-Graphe des flux (synonyme mnemonique de Cartographie des flux), I-Inventaire des donnees, T-Technologie & architecture, A-Adoption du canal, L-Lancement & suivi. L'objectif de la 3e etape reste bien la cartographie : schematiser tous les flux entrants et sortants du client (B2B, B2C, B2G, international) pour identifier toutes les obligations."
   },
   {
     "id": "s6-u3-q01",
@@ -173,10 +173,10 @@
     "section": 6,
     "unite": 3,
     "difficulty": 1,
-    "question": "Quel est l'objectif principal de la cartographie des flux d'un client ?",
-    "options": ["Reduire le nombre de factures emises", "Identifier les obligations (facturation electronique et/ou e-reporting) pour chaque type de flux", "Calculer le chiffre d'affaires previsionnel", "Choisir le logiciel comptable"],
+    "question": "Selon la fiche pratique Pennylane, a quoi sert la cartographie des flux d'un client ?",
+    "options": ["A reduire le nombre de factures emises par le client", "A identifier les besoins specifiques du client, orienter le choix de la PA, optimiser les processus administratifs et eviter l'embouteillage de derniere minute", "A calculer le chiffre d'affaires previsionnel", "A rediger la facture type du client"],
     "answer": 1,
-    "explanation": "La cartographie des flux permet de determiner quelles obligations s'appliquent a chaque type de transaction : facturation electronique pour le B2B domestique, e-reporting pour le B2C et l'international."
+    "explanation": "La cartographie a 4 objectifs selon la fiche Pennylane : identifier les besoins specifiques de chaque client, orienter le choix de la plateforme agreee, optimiser les processus administratifs, et eviter l'embouteillage de derniere minute. Identifier les obligations reglementaires (e-invoicing / e-reporting) est un resultat naturel de cette demarche."
   },
   {
     "id": "s6-u3-q02",
@@ -194,10 +194,10 @@
     "section": 6,
     "unite": 3,
     "difficulty": 2,
-    "question": "Quels types de flux faut-il recenser dans la cartographie ?",
-    "options": ["Uniquement les flux de vente", "Les flux de vente et d'achat, entrants et sortants", "Uniquement les flux B2B", "Uniquement les flux soumis a TVA"],
+    "question": "Que faut-il recenser dans la cartographie des flux cote ventes d'un client ?",
+    "options": ["Uniquement le montant total facture par an", "Comment les factures sont generees, sous quel format, par quels canaux elles sont envoyees et a qui", "Uniquement la liste des clients principaux", "Le nombre de relances envoyees par client"],
     "answer": 1,
-    "explanation": "La cartographie doit couvrir tous les flux : ventes (emission) et achats (reception), B2B, B2C, B2G et international. Les obligations s'appliquent aussi bien en emission qu'en reception."
+    "explanation": "Cote ventes, la fiche Pennylane detaille quatre points a recenser : le mode de generation (manuel, logiciel, ERP), le format actuel (papier, PDF, Factur-X, UBL...), les canaux de transmission (email, portail, EDI) et les destinataires (B2B domestique, B2C, international, B2G). Cote achats, meme logique : comment elles sont recues, quel est le processus de validation, ou sont-elles integrees dans le SI."
   },
   {
     "id": "s6-u3-q04",
@@ -216,9 +216,9 @@
     "unite": 3,
     "difficulty": 2,
     "question": "Comment determiner si un flux international est soumis au e-reporting ?",
-    "options": ["Tous les flux internationaux sont exemptes", "Seuls les flux intracommunautaires sont concernes", "Tous les flux internationaux d'une entreprise assujettie sont soumis au e-reporting", "Seuls les flux d'export sont concernes"],
+    "options": ["Tous les flux internationaux sont toujours exemptes", "Seuls les flux intracommunautaires sont concernes", "Les ventes internationales (export, livraisons intra-UE) et certains achats aupres de non-etablis sont soumis au e-reporting, mais les importations de biens sont exclues", "Seuls les flux d'export hors UE sont concernes"],
     "answer": 2,
-    "explanation": "Toutes les operations internationales (intracommunautaire, export, import de services) d'une entreprise assujettie a la TVA sont soumises au e-reporting, sans exception."
+    "explanation": "Le e-reporting couvre les ventes a l'international (export et livraisons intracommunautaires) et les acquisitions de biens ou services aupres d'un prestataire non etabli en France quand la TVA est due en France (auto-liquidation). Les importations de biens proprement dites, qui passent par la douane avec une DAU, sont exclues du e-reporting."
   },
   {
     "id": "s6-u3-q06",
@@ -237,9 +237,9 @@
     "section": 6,
     "unite": 3,
     "difficulty": 3,
-    "question": "Un client ayant un mix de flux B2B/B2C/international necessite une seule solution technique pour tout couvrir.",
+    "question": "Un client ayant des flux mixtes (B2B, B2C, international) doit obligatoirement utiliser plusieurs solutions techniques distinctes pour se conformer a la reforme.",
     "answer": "faux",
-    "explanation": "Un client avec des flux mixtes peut avoir besoin de plusieurs canaux : une PA pour la facturation electronique B2B, le meme ou un autre canal pour le e-reporting B2C et international. La cartographie sert justement a identifier cette complexite."
+    "explanation": "La cartographie identifie les differents types de flux, mais une seule solution bien choisie peut tout couvrir. Un outil de gestion complet comme Pennylane integre nativement l'e-invoicing B2B, le e-reporting (B2C et international) et les connexions avec Chorus Pro pour le B2G, evitant au client de jongler entre plusieurs plateformes. Combiner plusieurs canaux reste possible si l'organisation du client l'impose, mais ce n'est pas une obligation."
   },
   {
     "id": "s6-u3-q08",
@@ -290,10 +290,10 @@
     "section": 6,
     "unite": 4,
     "difficulty": 2,
-    "question": "Quel critere est le moins pertinent pour choisir entre un OD et une PA ?",
-    "options": ["Le volume de factures du client", "La couleur de l'interface du logiciel", "Les formats supportes (Factur-X, UBL, CII)", "La capacite a gerer le e-reporting"],
+    "question": "Parmi ces criteres, lequel est non pertinent pour comparer deux solutions de facturation electronique ?",
+    "options": ["Le volume de factures supporte", "Le nombre de plateformes de notation en ligne sur lesquelles la solution est presente", "Les formats supportes (Factur-X, UBL, CII)", "La capacite a gerer le e-reporting"],
     "answer": 1,
-    "explanation": "Le choix entre OD et PA doit se baser sur des criteres fonctionnels : volume, formats supportes, e-reporting, integration avec les outils existants, couverture B2B/B2C/international."
+    "explanation": "Le choix entre OD, PA ou outil complet doit reposer sur des criteres fonctionnels et operationnels : volume supporte, formats geres, gestion du e-reporting, integration avec la comptabilite, accompagnement propose. La popularite affichee sur des plateformes de notation n'est pas un critere de conformite ni de fiabilite technique."
   },
   {
     "id": "s6-u4-q05",
