@@ -183,9 +183,9 @@
     "section": 2,
     "unite": 3,
     "difficulty": 1,
-    "question": "Envoyer un PDF par email sera toujours conforme apres septembre 2026.",
+    "question": "Un PDF envoye par email constitue une facture electronique conforme pour une transaction B2B entre assujettis etablis en France soumise a l'obligation d'emission.",
     "answer": "faux",
-    "explanation": "Un PDF envoye par email n'est pas une facture electronique au sens de la reforme. Il faut un format structure (Factur-X, UBL, CII) transmis via une Plateforme Agreee."
+    "explanation": "Un PDF simple envoye par email n'est pas une facture electronique au sens de la reforme : il manque le format structure (Factur-X, UBL ou CII) et le passage par une Plateforme Agreee. En revanche, rien n'interdit d'envoyer un PDF par email dans d'autres contextes (B2C, echange informel, transmission complementaire hors circuit officiel)."
   },
   {
     "id": "s2-u3-q03",
@@ -193,10 +193,10 @@
     "section": 2,
     "unite": 3,
     "difficulty": 2,
-    "question": "Quel est le piege le plus frequent pour les TPE/PME concernant le calendrier ?",
-    "options": ["Croire que la reforme ne concerne que les GE", "Penser que l'emission et la reception ont la meme echeance", "Ne pas savoir que le PPF existe", "Croire que l'e-reporting est facultatif"],
-    "answer": 1,
-    "explanation": "Beaucoup de PME pensent n'avoir rien a faire avant 2027, car c'est la date d'emission. Mais l'obligation de reception demarre des septembre 2026 pour TOUTES les entreprises, PME et TPE comprises."
+    "question": "A quelle date une PME ou TPE doit-elle etre en capacite de recevoir des factures electroniques ?",
+    "options": ["1er septembre 2026", "1er janvier 2027", "1er septembre 2027", "1er janvier 2028"],
+    "answer": 0,
+    "explanation": "Toutes les entreprises, y compris PME et TPE, doivent pouvoir recevoir des factures electroniques des le 1er septembre 2026. L'obligation d'emission pour les PME/TPE est decalee au 1er septembre 2027. Le piege classique est de confondre les deux dates et d'attendre 2027 pour s'equiper."
   },
   {
     "id": "s2-u3-q04",
