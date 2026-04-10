@@ -13,12 +13,14 @@ export default function FillBlank({ question, onAnswer, onSkip }: FillBlankProps
   const [value, setValue] = useState("");
   const [revealed, setRevealed] = useState(false);
   const [skipped, setSkipped] = useState(false);
-  const correctAnswer = String(question.answer).toLowerCase().trim();
+  const normalize = (s: string) =>
+    s.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const correctAnswer = normalize(String(question.answer));
 
   function handleValidate() {
     if (revealed || !value.trim()) return;
     setRevealed(true);
-    const isCorrect = value.toLowerCase().trim() === correctAnswer;
+    const isCorrect = normalize(value) === correctAnswer;
     setTimeout(() => {
       onAnswer(isCorrect);
     }, 1200);
@@ -36,7 +38,7 @@ export default function FillBlank({ question, onAnswer, onSkip }: FillBlankProps
     if (e.key === "Enter") handleValidate();
   }
 
-  const isCorrect = !skipped && value.toLowerCase().trim() === correctAnswer;
+  const isCorrect = !skipped && normalize(value) === correctAnswer;
 
   return (
     <div className="flex flex-col gap-6">
